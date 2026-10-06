@@ -1,0 +1,1916 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Beginnings and open exploration",
+      "tags": {
+        "outdoor": 5,
+        "adventure": 4,
+        "movement": 3,
+        "bright": 2,
+        "independent": 1,
+        "walk": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Hesitation at an unfamiliar threshold",
+      "tags": {
+        "caution": 5,
+        "quiet": 4,
+        "indoor": 3,
+        "rest": 2
+      }
+    }
+  },
+  {
+    "id": 1,
+    "name": "The Magician",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Skill and purposeful action",
+      "tags": {
+        "work": 5,
+        "focus": 4,
+        "active": 3,
+        "creative": 2,
+        "urban": 1,
+        "fitness": 1,
+        "japanese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Scattered attention and unrealised skill",
+      "tags": {
+        "distracted": 5,
+        "stress": 4,
+        "work": 3,
+        "indoor": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Stillness and private observation",
+      "tags": {
+        "quiet": 5,
+        "solitary": 4,
+        "indoor": 3,
+        "dark": 2,
+        "reflect": 1,
+        "museum": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Noise obscuring intuition",
+      "tags": {
+        "social": 5,
+        "noise": 4,
+        "distracted": 3,
+        "urban": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "The Empress",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Comfort and sensory abundance",
+      "tags": {
+        "food": 5,
+        "nature": 4,
+        "comfort": 3,
+        "social": 2,
+        "garden": 1,
+        "vegetarian": 4,
+        "bakery": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Depletion and neglected comfort",
+      "tags": {
+        "tired": 5,
+        "hunger": 4,
+        "rest": 3,
+        "solitary": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Structure and responsibility",
+      "tags": {
+        "work": 5,
+        "order": 4,
+        "urban": 3,
+        "focus": 2,
+        "standing": 1,
+        "japanese": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Rigidity and pressure",
+      "tags": {
+        "stress": 5,
+        "order": 4,
+        "work": 3,
+        "tense": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Tradition and shared learning",
+      "tags": {
+        "culture": 5,
+        "museum": 4,
+        "group": 3,
+        "study": 2,
+        "indoor": 1,
+        "chinese": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Questioning convention",
+      "tags": {
+        "independent": 5,
+        "adventure": 4,
+        "outdoor": 3,
+        "creative": 2
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "The Lovers",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Connection and shared choices",
+      "tags": {
+        "pair": 5,
+        "social": 4,
+        "food": 3,
+        "calm": 2,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Disconnection and indecision",
+      "tags": {
+        "solitary": 5,
+        "tense": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "The Chariot",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Directed movement",
+      "tags": {
+        "movement": 5,
+        "transport": 4,
+        "fast": 3,
+        "active": 2,
+        "urban": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Interrupted progress",
+      "tags": {
+        "stationary": 5,
+        "stress": 4,
+        "tired": 3,
+        "indoor": 2
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Strength",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Calm physical confidence",
+      "tags": {
+        "active": 5,
+        "fitness": 4,
+        "calm": 3,
+        "nature": 2,
+        "warm": 1,
+        "vegetarian": 2,
+        "mediterranean": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Low reserves and self-doubt",
+      "tags": {
+        "tired": 5,
+        "rest": 4,
+        "tense": 3,
+        "quiet": 2
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "The Hermit",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Private reflection",
+      "tags": {
+        "solitary": 5,
+        "quiet": 4,
+        "indoor": 3,
+        "study": 2,
+        "dark": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Isolation becoming withdrawal",
+      "tags": {
+        "solitary": 5,
+        "tired": 4,
+        "dark": 3,
+        "rest": 2
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Wheel of Fortune",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Changing circumstances",
+      "tags": {
+        "movement": 5,
+        "change": 4,
+        "social": 3,
+        "fast": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Repeated interruption",
+      "tags": {
+        "stationary": 5,
+        "stress": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Justice",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Balance and considered judgement",
+      "tags": {
+        "order": 5,
+        "focus": 4,
+        "work": 3,
+        "calm": 2,
+        "indoor": 1,
+        "japanese": 4,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Imbalance and unresolved tension",
+      "tags": {
+        "tense": 5,
+        "stress": 4,
+        "distracted": 3,
+        "work": 2
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "The Hanged Man",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "A pause and different perspective",
+      "tags": {
+        "stationary": 5,
+        "rest": 4,
+        "reflect": 3,
+        "quiet": 2,
+        "skyline": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Restlessness in suspension",
+      "tags": {
+        "movement": 5,
+        "tense": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Death",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "An ending followed by renewal",
+      "tags": {
+        "change": 5,
+        "independent": 4,
+        "movement": 3,
+        "outdoor": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Resistance to transition",
+      "tags": {
+        "stationary": 5,
+        "indoor": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Temperance",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Moderation and steady flow",
+      "tags": {
+        "calm": 5,
+        "water": 4,
+        "food": 3,
+        "slow": 2,
+        "pair": 1,
+        "seafood": 4,
+        "mediterranean": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Excess and uneven pacing",
+      "tags": {
+        "fast": 5,
+        "stress": 4,
+        "food": 3,
+        "noise": 2
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "The Devil",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Attachment and intense appetite",
+      "tags": {
+        "shopping": 5,
+        "food": 4,
+        "indoor": 3,
+        "noise": 2,
+        "urban": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Release from habitual patterns",
+      "tags": {
+        "independent": 5,
+        "outdoor": 4,
+        "calm": 3,
+        "walk": 2,
+        "mediterranean": 3
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "The Tower",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Sudden disruption",
+      "tags": {
+        "noise": 5,
+        "fast": 4,
+        "stress": 3,
+        "urban": 2,
+        "change": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Aftershock and shelter",
+      "tags": {
+        "indoor": 5,
+        "rest": 4,
+        "tense": 3,
+        "quiet": 2
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "The Star",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Restoration and open horizons",
+      "tags": {
+        "nature": 5,
+        "water": 4,
+        "outdoor": 3,
+        "bright": 2,
+        "calm": 1,
+        "photography": 1,
+        "seafood": 4,
+        "vegetarian": 5,
+        "mediterranean": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Fading energy seeking renewal",
+      "tags": {
+        "tired": 5,
+        "solitary": 4,
+        "rest": 3,
+        "dark": 2
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "The Moon",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Ambiguity and nocturnal reflection",
+      "tags": {
+        "dark": 5,
+        "water": 4,
+        "quiet": 3,
+        "reflect": 2,
+        "beach": 1,
+        "seafood": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Clarity after uncertainty",
+      "tags": {
+        "bright": 5,
+        "focus": 4,
+        "calm": 3,
+        "stationary": 2,
+        "japanese": 4,
+        "mediterranean": 3
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "The Sun",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Vitality and visible joy",
+      "tags": {
+        "bright": 5,
+        "warm": 4,
+        "outdoor": 3,
+        "active": 2,
+        "social": 1,
+        "beach": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Muted vitality needing rest",
+      "tags": {
+        "tired": 5,
+        "indoor": 4,
+        "calm": 3,
+        "rest": 2,
+        "mediterranean": 3
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Judgement",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Review and a call to act",
+      "tags": {
+        "focus": 5,
+        "change": 4,
+        "culture": 3,
+        "group": 2,
+        "active": 1,
+        "japanese": 5,
+        "chinese": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Delayed response and self-questioning",
+      "tags": {
+        "reflect": 5,
+        "quiet": 4,
+        "stationary": 3,
+        "tense": 2
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "The World",
+    "arcana": "major",
+    "suit": null,
+    "upright": {
+      "meaning": "Integration and broad exploration",
+      "tags": {
+        "travel": 5,
+        "movement": 4,
+        "culture": 3,
+        "social": 2,
+        "skyline": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Unfinished journeys",
+      "tags": {
+        "stationary": 5,
+        "work": 4,
+        "reflect": 3,
+        "indoor": 2
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ace of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "A spark of initiative",
+      "tags": {
+        "active": 5,
+        "creative": 4,
+        "outdoor": 3,
+        "warm": 2,
+        "adventure": 1
+      }
+    },
+    "reversed": {
+      "meaning": "A stalled beginning",
+      "tags": {
+        "tired": 5,
+        "stationary": 4,
+        "rest": 3
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Two of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Surveying possible routes",
+      "tags": {
+        "skyline": 5,
+        "focus": 4,
+        "travel": 3,
+        "solitary": 2,
+        "japanese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Narrow horizons",
+      "tags": {
+        "indoor": 5,
+        "caution": 4,
+        "stationary": 3
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Three of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Expansion beyond the familiar",
+      "tags": {
+        "water": 5,
+        "boat": 4,
+        "travel": 3,
+        "outdoor": 2,
+        "seafood": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Waiting for progress",
+      "tags": {
+        "stationary": 5,
+        "reflect": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Four of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "A welcoming shared space",
+      "tags": {
+        "home": 5,
+        "group": 4,
+        "food": 3,
+        "social": 2,
+        "bright": 1,
+        "chinese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Uneasy domestic rhythm",
+      "tags": {
+        "home": 5,
+        "tense": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Five of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Lively competing energies",
+      "tags": {
+        "group": 5,
+        "noise": 4,
+        "active": 3,
+        "fitness": 2,
+        "tense": 1,
+        "chinese": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Conflict winding down",
+      "tags": {
+        "quiet": 5,
+        "rest": 4,
+        "calm": 3,
+        "pair": 2,
+        "mediterranean": 3
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Six of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Visible achievement",
+      "tags": {
+        "social": 5,
+        "bright": 4,
+        "urban": 3,
+        "active": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Recognition withheld",
+      "tags": {
+        "solitary": 5,
+        "work": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Seven of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Holding one's ground",
+      "tags": {
+        "standing": 5,
+        "active": 4,
+        "tense": 3,
+        "independent": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Overextended defence",
+      "tags": {
+        "tired": 5,
+        "stress": 4,
+        "rest": 3
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Eight of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Rapid movement and messages",
+      "tags": {
+        "fast": 5,
+        "movement": 4,
+        "transport": 3,
+        "communication": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Delays and crossed messages",
+      "tags": {
+        "stationary": 5,
+        "distracted": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Nine of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Alert persistence",
+      "tags": {
+        "tired": 5,
+        "standing": 4,
+        "caution": 3,
+        "work": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Fatigue after sustained effort",
+      "tags": {
+        "rest": 5,
+        "tired": 4,
+        "solitary": 3
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Ten of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Carrying a heavy load",
+      "tags": {
+        "stress": 5,
+        "work": 4,
+        "tired": 3,
+        "standing": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Putting burdens down",
+      "tags": {
+        "rest": 5,
+        "calm": 4,
+        "home": 3,
+        "mediterranean": 4
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Page of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Curious exploration",
+      "tags": {
+        "adventure": 5,
+        "outdoor": 4,
+        "creative": 3,
+        "photography": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Curiosity without direction",
+      "tags": {
+        "distracted": 5,
+        "indoor": 4,
+        "stationary": 3
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Knight of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Fast adventurous action",
+      "tags": {
+        "fast": 5,
+        "adventure": 4,
+        "mountain": 3,
+        "paragliding": 2,
+        "active": 1
+      }
+    },
+    "reversed": {
+      "meaning": "Impulsive movement losing momentum",
+      "tags": {
+        "tense": 5,
+        "caution": 4,
+        "tired": 3
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Queen of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Warm independent confidence",
+      "tags": {
+        "warm": 5,
+        "social": 4,
+        "creative": 3,
+        "active": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Withdrawing from visibility",
+      "tags": {
+        "solitary": 5,
+        "quiet": 4,
+        "indoor": 3
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "King of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright": {
+      "meaning": "Purposeful leadership",
+      "tags": {
+        "work": 5,
+        "group": 4,
+        "focus": 3,
+        "active": 2,
+        "japanese": 3,
+        "chinese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Overbearing urgency",
+      "tags": {
+        "stress": 5,
+        "fast": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Emotional replenishment",
+      "tags": {
+        "water": 5,
+        "food": 4,
+        "calm": 3,
+        "pair": 2,
+        "seafood": 5,
+        "mediterranean": 3
+      }
+    },
+    "reversed": {
+      "meaning": "A need for private replenishment",
+      "tags": {
+        "solitary": 5,
+        "rest": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Two of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "A close exchange",
+      "tags": {
+        "pair": 5,
+        "communication": 4,
+        "social": 3,
+        "calm": 2,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "A strained exchange",
+      "tags": {
+        "pair": 5,
+        "tense": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Three of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Shared celebration",
+      "tags": {
+        "group": 5,
+        "food": 4,
+        "social": 3,
+        "noise": 2,
+        "chinese": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Social fatigue",
+      "tags": {
+        "solitary": 5,
+        "tired": 4,
+        "rest": 3
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Four of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Disengagement and pause",
+      "tags": {
+        "stationary": 5,
+        "distracted": 4,
+        "rest": 3,
+        "indoor": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Renewed curiosity",
+      "tags": {
+        "active": 5,
+        "outdoor": 4,
+        "creative": 3
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Five of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Disappointment and reflection",
+      "tags": {
+        "solitary": 5,
+        "dark": 4,
+        "tired": 3,
+        "reflect": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Turning toward recovery",
+      "tags": {
+        "calm": 5,
+        "water": 4,
+        "rest": 3,
+        "seafood": 4,
+        "mediterranean": 5
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Six of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Familiar comforts",
+      "tags": {
+        "home": 5,
+        "comfort": 4,
+        "food": 3,
+        "pair": 2,
+        "bakery": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Leaving familiar routines",
+      "tags": {
+        "travel": 5,
+        "change": 4,
+        "independent": 3
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Seven of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Many competing possibilities",
+      "tags": {
+        "distracted": 5,
+        "shopping": 4,
+        "creative": 3,
+        "indoor": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Choosing a clear direction",
+      "tags": {
+        "focus": 5,
+        "order": 4,
+        "work": 3,
+        "japanese": 5
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Eight of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Departure toward solitude",
+      "tags": {
+        "walk": 5,
+        "movement": 4,
+        "solitary": 3,
+        "outdoor": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Hesitation before leaving",
+      "tags": {
+        "stationary": 5,
+        "home": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Nine of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Contentment and pleasure",
+      "tags": {
+        "food": 5,
+        "comfort": 4,
+        "calm": 3,
+        "indoor": 2,
+        "bakery": 4,
+        "mediterranean": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Satisfaction wearing thin",
+      "tags": {
+        "hunger": 5,
+        "distracted": 4,
+        "tired": 3
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ten of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Domestic harmony",
+      "tags": {
+        "home": 5,
+        "group": 4,
+        "social": 3,
+        "calm": 2,
+        "chinese": 4,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Domestic friction",
+      "tags": {
+        "home": 5,
+        "tense": 4,
+        "noise": 3
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Page of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Gentle imaginative attention",
+      "tags": {
+        "creative": 5,
+        "water": 4,
+        "photography": 3,
+        "calm": 2,
+        "seafood": 4,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Emotional distraction",
+      "tags": {
+        "distracted": 5,
+        "solitary": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Knight of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "A reflective approach",
+      "tags": {
+        "water": 5,
+        "slow": 4,
+        "pair": 3,
+        "walk": 2,
+        "seafood": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Drifting without arrival",
+      "tags": {
+        "stationary": 5,
+        "reflect": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Queen of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Attentive quiet care",
+      "tags": {
+        "quiet": 5,
+        "water": 4,
+        "calm": 3,
+        "pair": 2,
+        "seafood": 4,
+        "mediterranean": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Emotional overload",
+      "tags": {
+        "stress": 5,
+        "tired": 4,
+        "solitary": 3
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "King of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright": {
+      "meaning": "Composure amid activity",
+      "tags": {
+        "calm": 5,
+        "water": 4,
+        "focus": 3,
+        "social": 2,
+        "seafood": 4,
+        "japanese": 3,
+        "mediterranean": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Suppressed strain",
+      "tags": {
+        "tense": 5,
+        "quiet": 4,
+        "indoor": 3
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Ace of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "A clear mental start",
+      "tags": {
+        "focus": 5,
+        "study": 4,
+        "bright": 3,
+        "independent": 2,
+        "japanese": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Mental fog",
+      "tags": {
+        "distracted": 5,
+        "tired": 4,
+        "dark": 3
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Two of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Paused decision",
+      "tags": {
+        "stationary": 5,
+        "quiet": 4,
+        "reflect": 3,
+        "solitary": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Pressure to decide",
+      "tags": {
+        "tense": 5,
+        "stress": 4,
+        "movement": 3
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Three of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Painful separation",
+      "tags": {
+        "tense": 5,
+        "solitary": 4,
+        "dark": 3,
+        "tired": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Gradual recovery",
+      "tags": {
+        "rest": 5,
+        "calm": 4,
+        "quiet": 3,
+        "mediterranean": 4
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Four of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Deliberate rest",
+      "tags": {
+        "rest": 5,
+        "sleep": 4,
+        "quiet": 3,
+        "indoor": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Restlessness after inactivity",
+      "tags": {
+        "active": 5,
+        "movement": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Five of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Contentious interaction",
+      "tags": {
+        "tense": 5,
+        "communication": 4,
+        "noise": 3,
+        "group": 2,
+        "chinese": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Stepping away from conflict",
+      "tags": {
+        "solitary": 5,
+        "quiet": 4,
+        "walk": 3
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Six of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "A quiet crossing",
+      "tags": {
+        "boat": 5,
+        "water": 4,
+        "travel": 3,
+        "slow": 2,
+        "seafood": 4
+      }
+    },
+    "reversed": {
+      "meaning": "A delayed crossing",
+      "tags": {
+        "stationary": 5,
+        "tense": 4,
+        "water": 3,
+        "seafood": 3
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Seven of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Private strategic action",
+      "tags": {
+        "solitary": 5,
+        "work": 4,
+        "focus": 3,
+        "independent": 2,
+        "japanese": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Disclosure and accountability",
+      "tags": {
+        "communication": 5,
+        "group": 4,
+        "order": 3,
+        "chinese": 4
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Eight of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Restriction and hesitation",
+      "tags": {
+        "stationary": 5,
+        "tense": 4,
+        "indoor": 3,
+        "stress": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Regaining room to move",
+      "tags": {
+        "movement": 5,
+        "independent": 4,
+        "outdoor": 3
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Nine of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Wakeful worry",
+      "tags": {
+        "dark": 5,
+        "stress": 4,
+        "sleep": 3,
+        "tired": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Relief after worry",
+      "tags": {
+        "rest": 5,
+        "calm": 4,
+        "bright": 3,
+        "mediterranean": 4
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Ten of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Exhaustion and closure",
+      "tags": {
+        "tired": 5,
+        "rest": 4,
+        "dark": 3,
+        "stationary": 2
+      }
+    },
+    "reversed": {
+      "meaning": "A slow restart",
+      "tags": {
+        "slow": 5,
+        "calm": 4,
+        "change": 3,
+        "mediterranean": 4
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Page of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Alert observation",
+      "tags": {
+        "study": 5,
+        "focus": 4,
+        "communication": 3,
+        "photography": 2,
+        "japanese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Information overload",
+      "tags": {
+        "distracted": 5,
+        "noise": 4,
+        "stress": 3
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Knight of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Urgent direct action",
+      "tags": {
+        "fast": 5,
+        "movement": 4,
+        "work": 3,
+        "active": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Rushing into obstacles",
+      "tags": {
+        "tense": 5,
+        "stress": 4,
+        "stationary": 3
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Queen of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Independent discernment",
+      "tags": {
+        "solitary": 5,
+        "focus": 4,
+        "study": 3,
+        "museum": 2,
+        "japanese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Sharp judgement under strain",
+      "tags": {
+        "tense": 5,
+        "work": 4,
+        "quiet": 3
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "King of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright": {
+      "meaning": "Structured reasoning",
+      "tags": {
+        "order": 5,
+        "focus": 4,
+        "work": 3,
+        "culture": 2,
+        "japanese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Inflexible thinking",
+      "tags": {
+        "stress": 5,
+        "order": 4,
+        "tense": 3
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Ace of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "A tangible opportunity",
+      "tags": {
+        "food": 5,
+        "shopping": 4,
+        "nature": 3,
+        "work": 2,
+        "vegetarian": 3
+      }
+    },
+    "reversed": {
+      "meaning": "An opportunity needing preparation",
+      "tags": {
+        "caution": 5,
+        "work": 4,
+        "stationary": 3
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Two of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Managing changing demands",
+      "tags": {
+        "movement": 5,
+        "work": 4,
+        "fast": 3,
+        "distracted": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Too many demands",
+      "tags": {
+        "stress": 5,
+        "tired": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Three of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Practical collaboration",
+      "tags": {
+        "work": 5,
+        "group": 4,
+        "study": 3,
+        "indoor": 2,
+        "chinese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Coordination breaking down",
+      "tags": {
+        "work": 5,
+        "tense": 4,
+        "noise": 3
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Four of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Protecting resources",
+      "tags": {
+        "home": 5,
+        "stationary": 4,
+        "order": 3,
+        "quiet": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Loosening control",
+      "tags": {
+        "shopping": 5,
+        "movement": 4,
+        "social": 3
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Five of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Material discomfort",
+      "tags": {
+        "cold": 5,
+        "tired": 4,
+        "outdoor": 3,
+        "hunger": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Shelter and assistance",
+      "tags": {
+        "indoor": 5,
+        "warm": 4,
+        "rest": 3
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Six of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Giving and receiving",
+      "tags": {
+        "pair": 5,
+        "social": 4,
+        "food": 3,
+        "shopping": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Uneven exchange",
+      "tags": {
+        "tense": 5,
+        "work": 4,
+        "solitary": 3
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Seven of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Patient evaluation",
+      "tags": {
+        "nature": 5,
+        "slow": 4,
+        "stationary": 3,
+        "reflect": 2,
+        "vegetarian": 5
+      }
+    },
+    "reversed": {
+      "meaning": "Impatience with progress",
+      "tags": {
+        "fast": 5,
+        "tense": 4,
+        "work": 3
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Eight of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Focused practice",
+      "tags": {
+        "work": 5,
+        "study": 4,
+        "focus": 3,
+        "indoor": 2,
+        "japanese": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Repetitive fatigue",
+      "tags": {
+        "tired": 5,
+        "work": 4,
+        "distracted": 3
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Nine of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Independent comfort",
+      "tags": {
+        "nature": 5,
+        "solitary": 4,
+        "shopping": 3,
+        "calm": 2,
+        "vegetarian": 5,
+        "mediterranean": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Comfort requiring maintenance",
+      "tags": {
+        "work": 5,
+        "caution": 4,
+        "indoor": 3
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Ten of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Established shared security",
+      "tags": {
+        "home": 5,
+        "group": 4,
+        "culture": 3,
+        "food": 2,
+        "chinese": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Unsettled shared routines",
+      "tags": {
+        "home": 5,
+        "stress": 4,
+        "change": 3
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Page of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Practical learning",
+      "tags": {
+        "study": 5,
+        "nature": 4,
+        "focus": 3,
+        "museum": 2,
+        "vegetarian": 4,
+        "japanese": 3
+      }
+    },
+    "reversed": {
+      "meaning": "Difficulty sustaining attention",
+      "tags": {
+        "distracted": 5,
+        "stationary": 4,
+        "indoor": 3
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Knight of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Steady physical progress",
+      "tags": {
+        "slow": 5,
+        "work": 4,
+        "walk": 3,
+        "nature": 2,
+        "vegetarian": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Routine becoming inertia",
+      "tags": {
+        "stationary": 5,
+        "tired": 4,
+        "home": 3
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Queen of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Grounded care and comfort",
+      "tags": {
+        "food": 5,
+        "nature": 4,
+        "warm": 3,
+        "home": 2,
+        "vegetarian": 4
+      }
+    },
+    "reversed": {
+      "meaning": "Care draining reserves",
+      "tags": {
+        "tired": 5,
+        "stress": 4,
+        "home": 3
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "King of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright": {
+      "meaning": "Material steadiness",
+      "tags": {
+        "order": 5,
+        "shopping": 4,
+        "food": 3,
+        "urban": 2
+      }
+    },
+    "reversed": {
+      "meaning": "Overattachment to comfort",
+      "tags": {
+        "indoor": 5,
+        "stationary": 4,
+        "caution": 3
+      }
+    }
+  }
+]
