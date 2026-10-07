@@ -1,3 +1,11 @@
+# v4 更新
+
+见 [SPEC-V4.md](SPEC-V4.md)。不需要出发点；六档出门时间由牌决定。全站简体，姓名仅供预约资料。正式 159 张＋校准 3 张。
+
+验证：`node --import tsx --test tests/core.test.ts`、`node --import tsx tests/reliability-v4.ts`、`node tests/http-v4.mjs`。
+
+以下是上一版技术说明，出发点、张数与 UI 以 v4 为准。
+
 # Arcana · 私人約會
 
 以兩人名字帶入的手機優先 Tarot 約會網站。無 AI / LLM 執行依賴。

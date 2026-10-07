@@ -1,3 +1,5 @@
+import routes from '../../data/verified-routes.json';
+import forecast from '../../data/verified-weather.json';
 import type {Trip,Snapshot} from './core';
 import type {POI,Provider,Route,Weather} from './planner';
 import {byId,blend} from './spread';
@@ -15,22 +17,42 @@ export const venues=[
  {id:'harbour-green',name:'Harbour Green Park',address:'1199 W Cordova Street, Vancouver, BC',lat:49.2901767,lng:-123.1218611,source:'https://covapp.vancouver.ca/ParkFinder/FindFacilityType.aspx?InFT=41',meal:false,outdoor:true,tags:{walk:3,photography:3,water:3,skyline:2,nature:2},duration:45,cost:0,hours:[[540,1080]] as [number,number][],guard:['harbour green','1199'],foods:[]},
 ];
 export type DataAccess={get:(key:string)=>Promise<string|null>;put:(key:string,value:string,ttl:number)=>Promise<void>;limit:(service:string)=>Promise<void>};
-class RestrictedSource extends Error {}
-const identity='ArcanaPrivate/3.0 (+https://arcana-day-private.hosoning.chatgpt.site)';
-export function openProvider(access:DataAccess,transport:typeof fetch=fetch):Provider{
- let locations:POI[]=[];let matrix:(number|null)[][]=[];let weatherData:Weather[]|null=null;
- async function get(url:string,key:string,ttl:number){const cached=await access.get(key);if(cached)return cached;await access.limit(new URL(url).hostname);const r=await transport(url,{headers:{'User-Agent':identity,'Accept':'application/json,text/html'},signal:AbortSignal.timeout(18000)});if(r.status===403)throw new RestrictedSource();if(!r.ok)throw Error('公開資料服務暫時無法連線，請稍後用同一輪牌重試。');const value=await r.text();await access.put(key,value,ttl);return value;}
- return {walkingOnly:true,async candidates(s){const t=s.trip;if(t.city.toLowerCase()!=='vancouver'||t.currency!=='CAD')throw Error('免金鑰版目前支援 Vancouver / CAD。');if(!t.origin)throw Error('請先選擇出發位置，才能計算第一段路線。');if(t.date>OPEN_DATA_UNTIL)throw Error('這個日期超過目前已核實資料期限，請選擇 10 月 14 日或以前。');if(t.date==='2026-10-12')throw Error('10 月 12 日是假日，尚未取得商戶假日營業確認，不能排入。');const out:POI[]=[];
- for(const v of venues){if(v.id==='harbour-green')continue;try{let snapshotUsed=false;let raw='';try{raw=await get(v.source,'official:'+v.id,3600000);}catch(e){if(!(e instanceof RestrictedSource))throw e;snapshotUsed=true;} const html=raw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/gi,' ').replace(/\s+/g,' ').toLowerCase();if(!snapshotUsed&&!v.guard.every(g=>html.includes(g)))continue;
- let hours=v.hours.map(x=>[...x] as [number,number]);const dow=new Date(t.date+'T12:00:00Z').getUTCDay();if(v.id==='library'){if(dow===0)hours=[[660,1080]];else if(dow===6)hours=[[600,1080]];else if(dow===5)hours=[[570,1080]];}if(v.id==='vag'){if(dow===2)continue;if(dow===5)hours=[[600,1200]];}
- let cost=v.cost||0,menu:POI['menu'];let alternatives:{dish:string;price:number;start:number;end:number}[]=[];if(v.meal){let menuRaw=raw;let menuSnapshot=snapshotUsed;if(v.menuSource)try{menuRaw=await get(v.menuSource,'menu:'+v.id,3600000);}catch(e){if(!(e instanceof RestrictedSource))throw e;menuSnapshot=true;snapshotUsed=true;}const menuText=menuRaw.replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/gi,' ').replace(/\s+/g,' ').toLowerCase();const card=blend(byId(s.decisions!,'dish').cards,2);const dishes=[...v.foods].filter(f=>{const at=menuText.indexOf(f.dish.toLowerCase());return (menuSnapshot||at>=0&&menuText.slice(at,at+150).includes(String(f.price/100)))&&Math.max(f.start,t.start)<Math.min(f.end,t.end)}).sort((a,b)=>Object.entries(b.tags).reduce((n,[k,v])=>n+v*(card.tags[k]||0),0)-Object.entries(a.tags).reduce((n,[k,v])=>n+v*(card.tags[k]||0),0));alternatives=dishes;const dish=dishes[0];if(!dish)continue;cost=Math.ceil(dish.price*1.35/100)*100;menu={dish:dish.dish,source:v.menuSource||v.source,validUntil:OPEN_DATA_UNTIL};hours=hours.map(([a,b])=>[Math.max(a,dish.start),Math.min(b,dish.end)]);}
- // Miku reservation/deposit availability is not publicly verifiable; keep it in the browsable catalog, not executable plans.
- if(v.id==='miku')continue;
- for(const variant of (v.meal?alternatives:[null]))out.push({...base,...v,id:v.id+(variant?':'+variant.dish:''),venueId:v.id,sourceNote:snapshotUsed?'官方資料核實於 2026-10-07；自動重查受限，僅排至 10 月 14 日。':'本次已查閱官方資料；預約名額與臨時變更以商戶為準。',tags:v.tags as unknown as Record<string,number>,hours:variant?v.hours.map(([a,b])=>[Math.max(a,variant.start),Math.min(b,variant.end)] as [number,number]):hours,cost:variant?Math.ceil(variant.price*1.35/100)*100:cost,booking:{...noBooking,url:v.bookingUrl,...(v.id==='vag'?{required:true,status:'unbooked' as const,depositKind:'included' as const,deposit:cost,deadline:t.date+'（出發前）',terms:'請於官方售票頁核對入場時段、實際票價與取消規則；付款由你處理。'}:{})},menu:variant?{dish:variant.dish,source:v.menuSource||v.source,validUntil:OPEN_DATA_UNTIL}:menu,attributions:[{provider:'OpenStreetMap contributors',providerUri:'https://www.openstreetmap.org/copyright'}]});}catch{continue;}}
- const origin={...base,id:'origin',name:t.origin.label,address:t.origin.label,lat:t.origin.lat,lng:t.origin.lng} as POI;locations=[origin,...out];if(!out.length)return [];
- const coords=locations.map(p=>`${p.lng},${p.lat}`).join(';');const raw=await get('https://routing.openstreetmap.de/routed-foot/table/v1/foot/'+coords+'?annotations=duration','foot:'+coords,86400000);const data=JSON.parse(raw);if(data.code!=='Ok'||!Array.isArray(data.durations))throw Error('未能取得步行路線。');matrix=data.durations;for(let i=0;i<locations.length;i++)if(!data.sources?.[i]||data.sources[i].distance>150){matrix[i]=matrix[i].map(()=>null);for(const row of matrix)row[i]=null;}
- return out;},
- async weather(p,t){if(weatherData)return weatherData;const raw=await get('https://api.open-meteo.com/v1/forecast?latitude=49.283&longitude=-123.12&hourly=precipitation_probability,wind_speed_10m,weather_code&timezone=America%2FVancouver&forecast_days=16','weather:vancouver',1800000);const d=JSON.parse(raw);weatherData=(d.hourly?.time||[]).flatMap((date:string,i:number)=>{const day=(Date.parse(date.slice(0,10))-Date.parse(t.date))/86400000;if(day<0||day>1)return [];const start=day*1440+Number(date.slice(11,13))*60;const rain=d.hourly.precipitation_probability[i],wind=d.hourly.wind_speed_10m[i],code=d.hourly.weather_code[i];return Number.isFinite(rain)&&Number.isFinite(wind)&&Number.isFinite(code)?[{start,end:start+60,rain,wind,severe:code>=65}]:[]});return weatherData||[];},
- async route(a,b,_departure,t,mode):Promise<Route|null>{if(mode!=='WALK')return null;const i=locations.findIndex(p=>p.id===a.id),j=locations.findIndex(p=>p.id===b.id);const seconds=matrix[i]?.[j];if(typeof seconds!=='number'||!Number.isFinite(seconds)||seconds<0)return null;return {minutes:Math.ceil(seconds/60),cost:0,currency:t.currency,mode:'WALK',source:'https://routing.openstreetmap.de/about.html',persistable:true,directionsUrl:`https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=${a.lat},${a.lng};${b.lat},${b.lng}`,instructions:'依真實步行路網估算；已另留休息時間。'};}
- };
+export function openProvider(access:DataAccess,transport:typeof fetch=fetch):Provider {
+ let weatherData:Weather[]|null=null;
+ return {walkingOnly:true,async candidates(s){
+  const t=s.trip;if(t.city.toLowerCase()!=='vancouver'||t.currency!=='CAD')throw Error('目前支持 Vancouver / CAD。');
+  if(t.date>OPEN_DATA_UNTIL)throw Error('请选择 10 月 14 日或以前；之后的营业资料尚未核实。');
+  if(t.date==='2026-10-12')throw Error('10 月 12 日是假日，商户假日营业时间尚未确认，请换一天。');
+  const out:POI[]=[];const dow=new Date(t.date+'T12:00:00Z').getUTCDay();
+  for(const v of venues){if(['miku','harbour-green'].includes(v.id))continue;
+   let hours=v.hours.map(x=>[...x] as [number,number]);
+   if(v.id==='library'){if(dow===0)hours=[[660,1080]];else if(dow===6)hours=[[600,1080]];else if(dow===5)hours=[[570,1080]];}
+   if(v.id==='vag'){if(dow===2)continue;if(dow===5)hours=[[600,1200]];}
+   for(const dish of (v.meal?v.foods:[null])){
+    const cost=dish?Math.ceil(dish.price*1.35/100)*100:v.cost||0;
+    out.push({...base,...v,id:v.id+(dish?':'+dish.dish:''),venueId:v.id,
+     sourceNote:'官方营业与菜单资料核实于 2026-10-07；适用至 10 月 14 日。临时变更及订位名额以商户为准。',
+     tags:v.tags as unknown as Record<string,number>,hours:dish?hours.map(([a,b])=>[Math.max(a,dish.start),Math.min(b,dish.end)] as [number,number]):hours,cost,
+     booking:{...noBooking,url:v.bookingUrl,...(v.id==='vag'?{required:true,status:'unbooked' as const,depositKind:'included' as const,deposit:cost,deadline:t.date+'（出发前）',terms:'请于官方售票页核对入场时段、实际票价与取消规则；付款由你处理。'}:{})},
+     menu:dish?{dish:dish.dish,source:v.menuSource||v.source,validUntil:OPEN_DATA_UNTIL}:undefined,
+     attributions:[{provider:'OpenStreetMap contributors',providerUri:'https://www.openstreetmap.org/copyright'}]});
+   }
+  }return out;
+ },
+ async weather(_p,t){
+  if(weatherData)return weatherData;
+  let d:typeof forecast=forecast;
+  const cached=await access.get('weather:vancouver:v4');
+  if(cached){try{d=JSON.parse(cached);}catch{}}
+  else try{await access.limit('api.open-meteo.com');const r=await transport(forecast.source,{signal:AbortSignal.timeout(3500)});if(!r.ok)throw Error('weather '+r.status);const fresh=await r.json() as typeof forecast;if(!fresh.hourly?.time?.length)throw Error('weather schema');d={...fresh,checkedAt:new Date().toISOString(),source:forecast.source};await access.put('weather:vancouver:v4',JSON.stringify(d),1800000);}catch{console.warn('weather_live_unavailable_using_dated_forecast');}
+  // Forecast fallback expires after 24 hours; missing weather never passes a weather constraint.
+  if(Date.now()-Date.parse(d.checkedAt)>86400000)throw Error('天气预报需要更新，暂时无法核实步行条件。已保留这轮牌。');
+  weatherData=d.hourly.time.flatMap((date,i)=>{const day=(Date.parse(date.slice(0,10))-Date.parse(t.date))/86400000;if(day<0||day>1)return [];const start=day*1440+Number(date.slice(11,13))*60;const rain=d.hourly.precipitation_probability[i],wind=d.hourly.wind_speed_10m[i],code=d.hourly.weather_code[i];return Number.isFinite(rain)&&Number.isFinite(wind)&&Number.isFinite(code)?[{start,end:start+60,rain,wind,severe:code>=65,checkedAt:d.checkedAt}]:[];});return weatherData;
+ },
+ async route(a,b,_departure,t,mode):Promise<Route|null>{
+  if(mode!=='WALK'||t.date>routes.validUntil)return null;
+  const i=routes.ids.indexOf(a.venueId||a.id),j=routes.ids.indexOf(b.venueId||b.id);const seconds=routes.durations[i]?.[j];
+  if(typeof seconds!=='number'||!Number.isFinite(seconds)||seconds<0)return null;
+  return {minutes:Math.ceil(seconds/60),cost:0,currency:t.currency,mode:'WALK',source:'https://routing.openstreetmap.de/about.html',persistable:true,directionsUrl:`https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=${a.lat},${a.lng};${b.lat},${b.lng}`,instructions:'真实步行路网，2026-10-07 核实；出发前可打开地图复查。'};
+ }};
 }

@@ -17,7 +17,7 @@ const next=(await post({action:'create',trip})).data.round;const outcomes=await 
 let hidden;for(let i=0;i<12;i++){rr=(await post({action:'create',trip})).data.round;const result=await post({action:'answer',id:rr.id,answer:'yes'});if(result.data.surprise){hidden=result.data;break;}}
 assert(hidden,'Expected a surprise fixture within 12 independently drawn test rounds');assert.equal(hidden.surprise.revealed.length,0);assert(!hidden.plan);assert(!hidden.cards);assert(!hidden.audit);
 const forgedTime=await post({action:'view',id:rr.id,now:Date.now()+99999999999});assert.equal(forgedTime.data.surprise.revealed.length,0);
-assert.equal((await post({action:'export',id:rr.id})).status,400);const packet=await post({action:'export',id:rr.id,confirmSpoilers:true});assert(packet.data.text.includes('地址'));assert(packet.data.text.includes('預訂頁'));assert(packet.data.text.includes('訂金'));
+assert.equal((await post({action:'export',id:rr.id})).status,400);const packet=await post({action:'export',id:rr.id,confirmSpoilers:true});assert(packet.data.text.includes('地址'));assert(packet.data.text.includes('预订页'));assert(packet.data.text.includes('订金'));
 const calendar=await post({action:'calendar',id:rr.id});assert(calendar.data.text.includes('BEGIN:VALARM'));assert(!calendar.data.text.includes('Example Lane'));
 assert((await post({action:'resume'})).data.surprise);assert.equal((await post({action:'revealAll',id:rr.id})).status,400);
 const reveal=await post({action:'revealAll',id:rr.id,confirmSpoilers:true});assert(reveal.data.plan.stops.length);assert.equal(reveal.data.cards.length,40);

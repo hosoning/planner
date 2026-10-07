@@ -1,11 +1,11 @@
 [
   {
     "id": 0,
-    "name": "The Fool",
+    "name": "愚者",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Beginnings and open exploration",
+      "meaning": "新的开始，开放探索",
       "tags": {
         "outdoor": 5,
         "adventure": 4,
@@ -16,7 +16,7 @@
       }
     },
     "reversed": {
-      "meaning": "Hesitation at an unfamiliar threshold",
+      "meaning": "面对陌生事物有些犹豫",
       "tags": {
         "caution": 5,
         "quiet": 4,
@@ -27,11 +27,11 @@
   },
   {
     "id": 1,
-    "name": "The Magician",
+    "name": "魔术师",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Skill and purposeful action",
+      "meaning": "运用能力，主动行动",
       "tags": {
         "work": 5,
         "focus": 4,
@@ -43,7 +43,7 @@
       }
     },
     "reversed": {
-      "meaning": "Scattered attention and unrealised skill",
+      "meaning": "注意力分散，能力尚未发挥",
       "tags": {
         "distracted": 5,
         "stress": 4,
@@ -54,11 +54,11 @@
   },
   {
     "id": 2,
-    "name": "The High Priestess",
+    "name": "女祭司",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Stillness and private observation",
+      "meaning": "安静观察，保留私人空间",
       "tags": {
         "quiet": 5,
         "solitary": 4,
@@ -69,7 +69,7 @@
       }
     },
     "reversed": {
-      "meaning": "Noise obscuring intuition",
+      "meaning": "杂音干扰直觉",
       "tags": {
         "social": 5,
         "noise": 4,
@@ -80,11 +80,11 @@
   },
   {
     "id": 3,
-    "name": "The Empress",
+    "name": "皇后",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Comfort and sensory abundance",
+      "meaning": "舒适丰盛，享受感官",
       "tags": {
         "food": 5,
         "nature": 4,
@@ -96,7 +96,7 @@
       }
     },
     "reversed": {
-      "meaning": "Depletion and neglected comfort",
+      "meaning": "精力消耗，忽略了自己的舒适",
       "tags": {
         "tired": 5,
         "hunger": 4,
@@ -107,11 +107,11 @@
   },
   {
     "id": 4,
-    "name": "The Emperor",
+    "name": "皇帝",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Structure and responsibility",
+      "meaning": "规律安排，承担责任",
       "tags": {
         "work": 5,
         "order": 4,
@@ -122,7 +122,7 @@
       }
     },
     "reversed": {
-      "meaning": "Rigidity and pressure",
+      "meaning": "过于僵硬，感到压力",
       "tags": {
         "stress": 5,
         "order": 4,
@@ -133,11 +133,11 @@
   },
   {
     "id": 5,
-    "name": "The Hierophant",
+    "name": "教皇",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Tradition and shared learning",
+      "meaning": "遵循传统，共同学习",
       "tags": {
         "culture": 5,
         "museum": 4,
@@ -148,7 +148,7 @@
       }
     },
     "reversed": {
-      "meaning": "Questioning convention",
+      "meaning": "质疑惯例",
       "tags": {
         "independent": 5,
         "adventure": 4,
@@ -159,11 +159,11 @@
   },
   {
     "id": 6,
-    "name": "The Lovers",
+    "name": "恋人",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Connection and shared choices",
+      "meaning": "建立联系，共同选择",
       "tags": {
         "pair": 5,
         "social": 4,
@@ -173,7 +173,7 @@
       }
     },
     "reversed": {
-      "meaning": "Disconnection and indecision",
+      "meaning": "缺乏沟通，难以决定",
       "tags": {
         "solitary": 5,
         "tense": 4,
@@ -183,11 +183,11 @@
   },
   {
     "id": 7,
-    "name": "The Chariot",
+    "name": "战车",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Directed movement",
+      "meaning": "朝明确方向前进",
       "tags": {
         "movement": 5,
         "transport": 4,
@@ -197,7 +197,7 @@
       }
     },
     "reversed": {
-      "meaning": "Interrupted progress",
+      "meaning": "进展被打断",
       "tags": {
         "stationary": 5,
         "stress": 4,
@@ -208,11 +208,11 @@
   },
   {
     "id": 8,
-    "name": "Strength",
+    "name": "力量",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Calm physical confidence",
+      "meaning": "沉稳自信，身体有力量",
       "tags": {
         "active": 5,
         "fitness": 4,
@@ -224,7 +224,7 @@
       }
     },
     "reversed": {
-      "meaning": "Low reserves and self-doubt",
+      "meaning": "精力不足，缺乏信心",
       "tags": {
         "tired": 5,
         "rest": 4,
@@ -235,11 +235,11 @@
   },
   {
     "id": 9,
-    "name": "The Hermit",
+    "name": "隐士",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Private reflection",
+      "meaning": "独处思考",
       "tags": {
         "solitary": 5,
         "quiet": 4,
@@ -249,7 +249,7 @@
       }
     },
     "reversed": {
-      "meaning": "Isolation becoming withdrawal",
+      "meaning": "独处逐渐变成退缩",
       "tags": {
         "solitary": 5,
         "tired": 4,
@@ -260,11 +260,11 @@
   },
   {
     "id": 10,
-    "name": "Wheel of Fortune",
+    "name": "命运之轮",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Changing circumstances",
+      "meaning": "环境正在变化",
       "tags": {
         "movement": 5,
         "change": 4,
@@ -273,7 +273,7 @@
       }
     },
     "reversed": {
-      "meaning": "Repeated interruption",
+      "meaning": "反复受到干扰",
       "tags": {
         "stationary": 5,
         "stress": 4,
@@ -283,11 +283,11 @@
   },
   {
     "id": 11,
-    "name": "Justice",
+    "name": "正义",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Balance and considered judgement",
+      "meaning": "平衡取舍，认真判断",
       "tags": {
         "order": 5,
         "focus": 4,
@@ -299,7 +299,7 @@
       }
     },
     "reversed": {
-      "meaning": "Imbalance and unresolved tension",
+      "meaning": "失衡，矛盾未解",
       "tags": {
         "tense": 5,
         "stress": 4,
@@ -310,11 +310,11 @@
   },
   {
     "id": 12,
-    "name": "The Hanged Man",
+    "name": "倒吊人",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "A pause and different perspective",
+      "meaning": "暂停一下，换个角度",
       "tags": {
         "stationary": 5,
         "rest": 4,
@@ -324,7 +324,7 @@
       }
     },
     "reversed": {
-      "meaning": "Restlessness in suspension",
+      "meaning": "等待中坐立不安",
       "tags": {
         "movement": 5,
         "tense": 4,
@@ -334,11 +334,11 @@
   },
   {
     "id": 13,
-    "name": "Death",
+    "name": "死神",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "An ending followed by renewal",
+      "meaning": "结束之后迎来新阶段",
       "tags": {
         "change": 5,
         "independent": 4,
@@ -347,7 +347,7 @@
       }
     },
     "reversed": {
-      "meaning": "Resistance to transition",
+      "meaning": "抗拒改变",
       "tags": {
         "stationary": 5,
         "indoor": 4,
@@ -357,11 +357,11 @@
   },
   {
     "id": 14,
-    "name": "Temperance",
+    "name": "节制",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Moderation and steady flow",
+      "meaning": "适度安排，节奏平稳",
       "tags": {
         "calm": 5,
         "water": 4,
@@ -373,7 +373,7 @@
       }
     },
     "reversed": {
-      "meaning": "Excess and uneven pacing",
+      "meaning": "过度投入，节奏失衡",
       "tags": {
         "fast": 5,
         "stress": 4,
@@ -384,11 +384,11 @@
   },
   {
     "id": 15,
-    "name": "The Devil",
+    "name": "恶魔",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Attachment and intense appetite",
+      "meaning": "强烈欲望，难以放下",
       "tags": {
         "shopping": 5,
         "food": 4,
@@ -398,7 +398,7 @@
       }
     },
     "reversed": {
-      "meaning": "Release from habitual patterns",
+      "meaning": "摆脱习惯的束缚",
       "tags": {
         "independent": 5,
         "outdoor": 4,
@@ -410,11 +410,11 @@
   },
   {
     "id": 16,
-    "name": "The Tower",
+    "name": "高塔",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Sudden disruption",
+      "meaning": "突然的变化",
       "tags": {
         "noise": 5,
         "fast": 4,
@@ -424,7 +424,7 @@
       }
     },
     "reversed": {
-      "meaning": "Aftershock and shelter",
+      "meaning": "变化过后需要安定",
       "tags": {
         "indoor": 5,
         "rest": 4,
@@ -435,11 +435,11 @@
   },
   {
     "id": 17,
-    "name": "The Star",
+    "name": "星星",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Restoration and open horizons",
+      "meaning": "恢复精力，看见新的可能",
       "tags": {
         "nature": 5,
         "water": 4,
@@ -453,7 +453,7 @@
       }
     },
     "reversed": {
-      "meaning": "Fading energy seeking renewal",
+      "meaning": "精力渐弱，需要恢复",
       "tags": {
         "tired": 5,
         "solitary": 4,
@@ -464,11 +464,11 @@
   },
   {
     "id": 18,
-    "name": "The Moon",
+    "name": "月亮",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Ambiguity and nocturnal reflection",
+      "meaning": "情况不明，夜间思考",
       "tags": {
         "dark": 5,
         "water": 4,
@@ -479,7 +479,7 @@
       }
     },
     "reversed": {
-      "meaning": "Clarity after uncertainty",
+      "meaning": "不确定逐渐消散",
       "tags": {
         "bright": 5,
         "focus": 4,
@@ -492,11 +492,11 @@
   },
   {
     "id": 19,
-    "name": "The Sun",
+    "name": "太阳",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Vitality and visible joy",
+      "meaning": "活力充沛，心情明朗",
       "tags": {
         "bright": 5,
         "warm": 4,
@@ -507,7 +507,7 @@
       }
     },
     "reversed": {
-      "meaning": "Muted vitality needing rest",
+      "meaning": "活力减弱，需要休息",
       "tags": {
         "tired": 5,
         "indoor": 4,
@@ -519,11 +519,11 @@
   },
   {
     "id": 20,
-    "name": "Judgement",
+    "name": "审判",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Review and a call to act",
+      "meaning": "回顾之后采取行动",
       "tags": {
         "focus": 5,
         "change": 4,
@@ -535,7 +535,7 @@
       }
     },
     "reversed": {
-      "meaning": "Delayed response and self-questioning",
+      "meaning": "迟迟未回应，反复自问",
       "tags": {
         "reflect": 5,
         "quiet": 4,
@@ -546,11 +546,11 @@
   },
   {
     "id": 21,
-    "name": "The World",
+    "name": "世界",
     "arcana": "major",
     "suit": null,
     "upright": {
-      "meaning": "Integration and broad exploration",
+      "meaning": "整合体验，广泛探索",
       "tags": {
         "travel": 5,
         "movement": 4,
@@ -560,7 +560,7 @@
       }
     },
     "reversed": {
-      "meaning": "Unfinished journeys",
+      "meaning": "旅程尚未完成",
       "tags": {
         "stationary": 5,
         "work": 4,
@@ -571,11 +571,11 @@
   },
   {
     "id": 22,
-    "name": "Ace of Wands",
+    "name": "权杖王牌",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "A spark of initiative",
+      "meaning": "萌生行动的念头",
       "tags": {
         "active": 5,
         "creative": 4,
@@ -585,7 +585,7 @@
       }
     },
     "reversed": {
-      "meaning": "A stalled beginning",
+      "meaning": "开始受阻",
       "tags": {
         "tired": 5,
         "stationary": 4,
@@ -595,11 +595,11 @@
   },
   {
     "id": 23,
-    "name": "Two of Wands",
+    "name": "权杖二",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Surveying possible routes",
+      "meaning": "观察可选方向",
       "tags": {
         "skyline": 5,
         "focus": 4,
@@ -609,7 +609,7 @@
       }
     },
     "reversed": {
-      "meaning": "Narrow horizons",
+      "meaning": "选择范围有限",
       "tags": {
         "indoor": 5,
         "caution": 4,
@@ -619,11 +619,11 @@
   },
   {
     "id": 24,
-    "name": "Three of Wands",
+    "name": "权杖三",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Expansion beyond the familiar",
+      "meaning": "走出熟悉的范围",
       "tags": {
         "water": 5,
         "boat": 4,
@@ -633,7 +633,7 @@
       }
     },
     "reversed": {
-      "meaning": "Waiting for progress",
+      "meaning": "等待进展",
       "tags": {
         "stationary": 5,
         "reflect": 4,
@@ -643,11 +643,11 @@
   },
   {
     "id": 25,
-    "name": "Four of Wands",
+    "name": "权杖四",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "A welcoming shared space",
+      "meaning": "温馨的相聚空间",
       "tags": {
         "home": 5,
         "group": 4,
@@ -658,7 +658,7 @@
       }
     },
     "reversed": {
-      "meaning": "Uneasy domestic rhythm",
+      "meaning": "居家节奏不太稳定",
       "tags": {
         "home": 5,
         "tense": 4,
@@ -668,11 +668,11 @@
   },
   {
     "id": 26,
-    "name": "Five of Wands",
+    "name": "权杖五",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Lively competing energies",
+      "meaning": "不同想法热烈碰撞",
       "tags": {
         "group": 5,
         "noise": 4,
@@ -683,7 +683,7 @@
       }
     },
     "reversed": {
-      "meaning": "Conflict winding down",
+      "meaning": "冲突逐渐平息",
       "tags": {
         "quiet": 5,
         "rest": 4,
@@ -695,11 +695,11 @@
   },
   {
     "id": 27,
-    "name": "Six of Wands",
+    "name": "权杖六",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Visible achievement",
+      "meaning": "成果得到认可",
       "tags": {
         "social": 5,
         "bright": 4,
@@ -708,7 +708,7 @@
       }
     },
     "reversed": {
-      "meaning": "Recognition withheld",
+      "meaning": "努力尚未被看见",
       "tags": {
         "solitary": 5,
         "work": 4,
@@ -718,11 +718,11 @@
   },
   {
     "id": 28,
-    "name": "Seven of Wands",
+    "name": "权杖七",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Holding one's ground",
+      "meaning": "坚持自己的立场",
       "tags": {
         "standing": 5,
         "active": 4,
@@ -731,7 +731,7 @@
       }
     },
     "reversed": {
-      "meaning": "Overextended defence",
+      "meaning": "防备过度，精力不支",
       "tags": {
         "tired": 5,
         "stress": 4,
@@ -741,11 +741,11 @@
   },
   {
     "id": 29,
-    "name": "Eight of Wands",
+    "name": "权杖八",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Rapid movement and messages",
+      "meaning": "快速移动，消息往来",
       "tags": {
         "fast": 5,
         "movement": 4,
@@ -754,7 +754,7 @@
       }
     },
     "reversed": {
-      "meaning": "Delays and crossed messages",
+      "meaning": "延误或沟通错位",
       "tags": {
         "stationary": 5,
         "distracted": 4,
@@ -764,11 +764,11 @@
   },
   {
     "id": 30,
-    "name": "Nine of Wands",
+    "name": "权杖九",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Alert persistence",
+      "meaning": "保持警觉，继续坚持",
       "tags": {
         "tired": 5,
         "standing": 4,
@@ -777,7 +777,7 @@
       }
     },
     "reversed": {
-      "meaning": "Fatigue after sustained effort",
+      "meaning": "持续努力后感到疲惫",
       "tags": {
         "rest": 5,
         "tired": 4,
@@ -787,11 +787,11 @@
   },
   {
     "id": 31,
-    "name": "Ten of Wands",
+    "name": "权杖十",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Carrying a heavy load",
+      "meaning": "承担较多负担",
       "tags": {
         "stress": 5,
         "work": 4,
@@ -800,7 +800,7 @@
       }
     },
     "reversed": {
-      "meaning": "Putting burdens down",
+      "meaning": "放下负担",
       "tags": {
         "rest": 5,
         "calm": 4,
@@ -811,11 +811,11 @@
   },
   {
     "id": 32,
-    "name": "Page of Wands",
+    "name": "权杖侍从",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Curious exploration",
+      "meaning": "好奇地探索",
       "tags": {
         "adventure": 5,
         "outdoor": 4,
@@ -824,7 +824,7 @@
       }
     },
     "reversed": {
-      "meaning": "Curiosity without direction",
+      "meaning": "好奇但缺少方向",
       "tags": {
         "distracted": 5,
         "indoor": 4,
@@ -834,11 +834,11 @@
   },
   {
     "id": 33,
-    "name": "Knight of Wands",
+    "name": "权杖骑士",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Fast adventurous action",
+      "meaning": "迅速展开冒险",
       "tags": {
         "fast": 5,
         "adventure": 4,
@@ -848,7 +848,7 @@
       }
     },
     "reversed": {
-      "meaning": "Impulsive movement losing momentum",
+      "meaning": "冲动之后失去动力",
       "tags": {
         "tense": 5,
         "caution": 4,
@@ -858,11 +858,11 @@
   },
   {
     "id": 34,
-    "name": "Queen of Wands",
+    "name": "权杖王后",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Warm independent confidence",
+      "meaning": "热情独立，自信大方",
       "tags": {
         "warm": 5,
         "social": 4,
@@ -871,7 +871,7 @@
       }
     },
     "reversed": {
-      "meaning": "Withdrawing from visibility",
+      "meaning": "减少露面，想安静一下",
       "tags": {
         "solitary": 5,
         "quiet": 4,
@@ -881,11 +881,11 @@
   },
   {
     "id": 35,
-    "name": "King of Wands",
+    "name": "权杖国王",
     "arcana": "minor",
     "suit": "Wands",
     "upright": {
-      "meaning": "Purposeful leadership",
+      "meaning": "有目标地带领行动",
       "tags": {
         "work": 5,
         "group": 4,
@@ -896,7 +896,7 @@
       }
     },
     "reversed": {
-      "meaning": "Overbearing urgency",
+      "meaning": "过于急切，给人压力",
       "tags": {
         "stress": 5,
         "fast": 4,
@@ -906,11 +906,11 @@
   },
   {
     "id": 36,
-    "name": "Ace of Cups",
+    "name": "圣杯王牌",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Emotional replenishment",
+      "meaning": "情绪得到滋养",
       "tags": {
         "water": 5,
         "food": 4,
@@ -921,7 +921,7 @@
       }
     },
     "reversed": {
-      "meaning": "A need for private replenishment",
+      "meaning": "需要独处恢复心情",
       "tags": {
         "solitary": 5,
         "rest": 4,
@@ -931,11 +931,11 @@
   },
   {
     "id": 37,
-    "name": "Two of Cups",
+    "name": "圣杯二",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "A close exchange",
+      "meaning": "亲近的交流",
       "tags": {
         "pair": 5,
         "communication": 4,
@@ -945,7 +945,7 @@
       }
     },
     "reversed": {
-      "meaning": "A strained exchange",
+      "meaning": "交流有些紧张",
       "tags": {
         "pair": 5,
         "tense": 4,
@@ -955,11 +955,11 @@
   },
   {
     "id": 38,
-    "name": "Three of Cups",
+    "name": "圣杯三",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Shared celebration",
+      "meaning": "一起庆祝",
       "tags": {
         "group": 5,
         "food": 4,
@@ -969,7 +969,7 @@
       }
     },
     "reversed": {
-      "meaning": "Social fatigue",
+      "meaning": "社交疲劳",
       "tags": {
         "solitary": 5,
         "tired": 4,
@@ -979,11 +979,11 @@
   },
   {
     "id": 39,
-    "name": "Four of Cups",
+    "name": "圣杯四",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Disengagement and pause",
+      "meaning": "兴致不高，暂时停一停",
       "tags": {
         "stationary": 5,
         "distracted": 4,
@@ -992,7 +992,7 @@
       }
     },
     "reversed": {
-      "meaning": "Renewed curiosity",
+      "meaning": "重新产生兴趣",
       "tags": {
         "active": 5,
         "outdoor": 4,
@@ -1002,11 +1002,11 @@
   },
   {
     "id": 40,
-    "name": "Five of Cups",
+    "name": "圣杯五",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Disappointment and reflection",
+      "meaning": "失望后的反思",
       "tags": {
         "solitary": 5,
         "dark": 4,
@@ -1015,7 +1015,7 @@
       }
     },
     "reversed": {
-      "meaning": "Turning toward recovery",
+      "meaning": "开始恢复",
       "tags": {
         "calm": 5,
         "water": 4,
@@ -1027,11 +1027,11 @@
   },
   {
     "id": 41,
-    "name": "Six of Cups",
+    "name": "圣杯六",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Familiar comforts",
+      "meaning": "熟悉的事物带来安慰",
       "tags": {
         "home": 5,
         "comfort": 4,
@@ -1041,7 +1041,7 @@
       }
     },
     "reversed": {
-      "meaning": "Leaving familiar routines",
+      "meaning": "离开熟悉的日常",
       "tags": {
         "travel": 5,
         "change": 4,
@@ -1051,11 +1051,11 @@
   },
   {
     "id": 42,
-    "name": "Seven of Cups",
+    "name": "圣杯七",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Many competing possibilities",
+      "meaning": "面前有很多可能",
       "tags": {
         "distracted": 5,
         "shopping": 4,
@@ -1064,7 +1064,7 @@
       }
     },
     "reversed": {
-      "meaning": "Choosing a clear direction",
+      "meaning": "选择一个明确方向",
       "tags": {
         "focus": 5,
         "order": 4,
@@ -1075,11 +1075,11 @@
   },
   {
     "id": 43,
-    "name": "Eight of Cups",
+    "name": "圣杯八",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Departure toward solitude",
+      "meaning": "离开人群，寻找独处",
       "tags": {
         "walk": 5,
         "movement": 4,
@@ -1088,7 +1088,7 @@
       }
     },
     "reversed": {
-      "meaning": "Hesitation before leaving",
+      "meaning": "离开之前犹豫",
       "tags": {
         "stationary": 5,
         "home": 4,
@@ -1098,11 +1098,11 @@
   },
   {
     "id": 44,
-    "name": "Nine of Cups",
+    "name": "圣杯九",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Contentment and pleasure",
+      "meaning": "满足，享受当下",
       "tags": {
         "food": 5,
         "comfort": 4,
@@ -1113,7 +1113,7 @@
       }
     },
     "reversed": {
-      "meaning": "Satisfaction wearing thin",
+      "meaning": "满足感逐渐减弱",
       "tags": {
         "hunger": 5,
         "distracted": 4,
@@ -1123,11 +1123,11 @@
   },
   {
     "id": 45,
-    "name": "Ten of Cups",
+    "name": "圣杯十",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Domestic harmony",
+      "meaning": "居家和谐",
       "tags": {
         "home": 5,
         "group": 4,
@@ -1138,7 +1138,7 @@
       }
     },
     "reversed": {
-      "meaning": "Domestic friction",
+      "meaning": "居家生活有摩擦",
       "tags": {
         "home": 5,
         "tense": 4,
@@ -1148,11 +1148,11 @@
   },
   {
     "id": 46,
-    "name": "Page of Cups",
+    "name": "圣杯侍从",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Gentle imaginative attention",
+      "meaning": "温柔关注，富有想象",
       "tags": {
         "creative": 5,
         "water": 4,
@@ -1163,7 +1163,7 @@
       }
     },
     "reversed": {
-      "meaning": "Emotional distraction",
+      "meaning": "情绪使注意力分散",
       "tags": {
         "distracted": 5,
         "solitary": 4,
@@ -1173,11 +1173,11 @@
   },
   {
     "id": 47,
-    "name": "Knight of Cups",
+    "name": "圣杯骑士",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "A reflective approach",
+      "meaning": "带着心意慢慢接近",
       "tags": {
         "water": 5,
         "slow": 4,
@@ -1187,7 +1187,7 @@
       }
     },
     "reversed": {
-      "meaning": "Drifting without arrival",
+      "meaning": "游移不定，没有抵达",
       "tags": {
         "stationary": 5,
         "reflect": 4,
@@ -1197,11 +1197,11 @@
   },
   {
     "id": 48,
-    "name": "Queen of Cups",
+    "name": "圣杯王后",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Attentive quiet care",
+      "meaning": "安静而体贴的照顾",
       "tags": {
         "quiet": 5,
         "water": 4,
@@ -1212,7 +1212,7 @@
       }
     },
     "reversed": {
-      "meaning": "Emotional overload",
+      "meaning": "情绪负担过重",
       "tags": {
         "stress": 5,
         "tired": 4,
@@ -1222,11 +1222,11 @@
   },
   {
     "id": 49,
-    "name": "King of Cups",
+    "name": "圣杯国王",
     "arcana": "minor",
     "suit": "Cups",
     "upright": {
-      "meaning": "Composure amid activity",
+      "meaning": "忙碌中保持平静",
       "tags": {
         "calm": 5,
         "water": 4,
@@ -1238,7 +1238,7 @@
       }
     },
     "reversed": {
-      "meaning": "Suppressed strain",
+      "meaning": "把压力藏在心里",
       "tags": {
         "tense": 5,
         "quiet": 4,
@@ -1248,11 +1248,11 @@
   },
   {
     "id": 50,
-    "name": "Ace of Swords",
+    "name": "宝剑王牌",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "A clear mental start",
+      "meaning": "思路清晰的新开始",
       "tags": {
         "focus": 5,
         "study": 4,
@@ -1262,7 +1262,7 @@
       }
     },
     "reversed": {
-      "meaning": "Mental fog",
+      "meaning": "思绪混乱",
       "tags": {
         "distracted": 5,
         "tired": 4,
@@ -1272,11 +1272,11 @@
   },
   {
     "id": 51,
-    "name": "Two of Swords",
+    "name": "宝剑二",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Paused decision",
+      "meaning": "暂缓决定",
       "tags": {
         "stationary": 5,
         "quiet": 4,
@@ -1285,7 +1285,7 @@
       }
     },
     "reversed": {
-      "meaning": "Pressure to decide",
+      "meaning": "感到必须做决定",
       "tags": {
         "tense": 5,
         "stress": 4,
@@ -1295,11 +1295,11 @@
   },
   {
     "id": 52,
-    "name": "Three of Swords",
+    "name": "宝剑三",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Painful separation",
+      "meaning": "分离带来难过",
       "tags": {
         "tense": 5,
         "solitary": 4,
@@ -1308,7 +1308,7 @@
       }
     },
     "reversed": {
-      "meaning": "Gradual recovery",
+      "meaning": "逐渐恢复",
       "tags": {
         "rest": 5,
         "calm": 4,
@@ -1319,11 +1319,11 @@
   },
   {
     "id": 53,
-    "name": "Four of Swords",
+    "name": "宝剑四",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Deliberate rest",
+      "meaning": "有意识地休息",
       "tags": {
         "rest": 5,
         "sleep": 4,
@@ -1332,7 +1332,7 @@
       }
     },
     "reversed": {
-      "meaning": "Restlessness after inactivity",
+      "meaning": "休息之后想活动一下",
       "tags": {
         "active": 5,
         "movement": 4,
@@ -1342,11 +1342,11 @@
   },
   {
     "id": 54,
-    "name": "Five of Swords",
+    "name": "宝剑五",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Contentious interaction",
+      "meaning": "有争执的互动",
       "tags": {
         "tense": 5,
         "communication": 4,
@@ -1356,7 +1356,7 @@
       }
     },
     "reversed": {
-      "meaning": "Stepping away from conflict",
+      "meaning": "离开冲突",
       "tags": {
         "solitary": 5,
         "quiet": 4,
@@ -1366,11 +1366,11 @@
   },
   {
     "id": 55,
-    "name": "Six of Swords",
+    "name": "宝剑六",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "A quiet crossing",
+      "meaning": "平静地转移到新环境",
       "tags": {
         "boat": 5,
         "water": 4,
@@ -1380,7 +1380,7 @@
       }
     },
     "reversed": {
-      "meaning": "A delayed crossing",
+      "meaning": "行程转移受阻",
       "tags": {
         "stationary": 5,
         "tense": 4,
@@ -1391,11 +1391,11 @@
   },
   {
     "id": 56,
-    "name": "Seven of Swords",
+    "name": "宝剑七",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Private strategic action",
+      "meaning": "独自制定策略",
       "tags": {
         "solitary": 5,
         "work": 4,
@@ -1405,7 +1405,7 @@
       }
     },
     "reversed": {
-      "meaning": "Disclosure and accountability",
+      "meaning": "坦白，承担责任",
       "tags": {
         "communication": 5,
         "group": 4,
@@ -1416,11 +1416,11 @@
   },
   {
     "id": 57,
-    "name": "Eight of Swords",
+    "name": "宝剑八",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Restriction and hesitation",
+      "meaning": "受到限制，难以前进",
       "tags": {
         "stationary": 5,
         "tense": 4,
@@ -1429,7 +1429,7 @@
       }
     },
     "reversed": {
-      "meaning": "Regaining room to move",
+      "meaning": "重新获得行动空间",
       "tags": {
         "movement": 5,
         "independent": 4,
@@ -1439,11 +1439,11 @@
   },
   {
     "id": 58,
-    "name": "Nine of Swords",
+    "name": "宝剑九",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Wakeful worry",
+      "meaning": "清醒却忧虑",
       "tags": {
         "dark": 5,
         "stress": 4,
@@ -1452,7 +1452,7 @@
       }
     },
     "reversed": {
-      "meaning": "Relief after worry",
+      "meaning": "担忧逐渐缓解",
       "tags": {
         "rest": 5,
         "calm": 4,
@@ -1463,11 +1463,11 @@
   },
   {
     "id": 59,
-    "name": "Ten of Swords",
+    "name": "宝剑十",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Exhaustion and closure",
+      "meaning": "精疲力尽，告一段落",
       "tags": {
         "tired": 5,
         "rest": 4,
@@ -1476,7 +1476,7 @@
       }
     },
     "reversed": {
-      "meaning": "A slow restart",
+      "meaning": "缓慢重新开始",
       "tags": {
         "slow": 5,
         "calm": 4,
@@ -1487,11 +1487,11 @@
   },
   {
     "id": 60,
-    "name": "Page of Swords",
+    "name": "宝剑侍从",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Alert observation",
+      "meaning": "敏锐观察",
       "tags": {
         "study": 5,
         "focus": 4,
@@ -1501,7 +1501,7 @@
       }
     },
     "reversed": {
-      "meaning": "Information overload",
+      "meaning": "信息太多",
       "tags": {
         "distracted": 5,
         "noise": 4,
@@ -1511,11 +1511,11 @@
   },
   {
     "id": 61,
-    "name": "Knight of Swords",
+    "name": "宝剑骑士",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Urgent direct action",
+      "meaning": "直接而急切地行动",
       "tags": {
         "fast": 5,
         "movement": 4,
@@ -1524,7 +1524,7 @@
       }
     },
     "reversed": {
-      "meaning": "Rushing into obstacles",
+      "meaning": "仓促前进碰到阻碍",
       "tags": {
         "tense": 5,
         "stress": 4,
@@ -1534,11 +1534,11 @@
   },
   {
     "id": 62,
-    "name": "Queen of Swords",
+    "name": "宝剑王后",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Independent discernment",
+      "meaning": "独立判断",
       "tags": {
         "solitary": 5,
         "focus": 4,
@@ -1548,7 +1548,7 @@
       }
     },
     "reversed": {
-      "meaning": "Sharp judgement under strain",
+      "meaning": "压力下判断变得尖锐",
       "tags": {
         "tense": 5,
         "work": 4,
@@ -1558,11 +1558,11 @@
   },
   {
     "id": 63,
-    "name": "King of Swords",
+    "name": "宝剑国王",
     "arcana": "minor",
     "suit": "Swords",
     "upright": {
-      "meaning": "Structured reasoning",
+      "meaning": "有条理地思考",
       "tags": {
         "order": 5,
         "focus": 4,
@@ -1572,7 +1572,7 @@
       }
     },
     "reversed": {
-      "meaning": "Inflexible thinking",
+      "meaning": "思考缺少弹性",
       "tags": {
         "stress": 5,
         "order": 4,
@@ -1582,11 +1582,11 @@
   },
   {
     "id": 64,
-    "name": "Ace of Pentacles",
+    "name": "星币王牌",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "A tangible opportunity",
+      "meaning": "实际可行的机会",
       "tags": {
         "food": 5,
         "shopping": 4,
@@ -1596,7 +1596,7 @@
       }
     },
     "reversed": {
-      "meaning": "An opportunity needing preparation",
+      "meaning": "机会仍需准备",
       "tags": {
         "caution": 5,
         "work": 4,
@@ -1606,11 +1606,11 @@
   },
   {
     "id": 65,
-    "name": "Two of Pentacles",
+    "name": "星币二",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Managing changing demands",
+      "meaning": "协调不断变化的事务",
       "tags": {
         "movement": 5,
         "work": 4,
@@ -1619,7 +1619,7 @@
       }
     },
     "reversed": {
-      "meaning": "Too many demands",
+      "meaning": "要顾及的事情太多",
       "tags": {
         "stress": 5,
         "tired": 4,
@@ -1629,11 +1629,11 @@
   },
   {
     "id": 66,
-    "name": "Three of Pentacles",
+    "name": "星币三",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Practical collaboration",
+      "meaning": "务实合作",
       "tags": {
         "work": 5,
         "group": 4,
@@ -1643,7 +1643,7 @@
       }
     },
     "reversed": {
-      "meaning": "Coordination breaking down",
+      "meaning": "协作不顺",
       "tags": {
         "work": 5,
         "tense": 4,
@@ -1653,11 +1653,11 @@
   },
   {
     "id": 67,
-    "name": "Four of Pentacles",
+    "name": "星币四",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Protecting resources",
+      "meaning": "保留和保护资源",
       "tags": {
         "home": 5,
         "stationary": 4,
@@ -1666,7 +1666,7 @@
       }
     },
     "reversed": {
-      "meaning": "Loosening control",
+      "meaning": "放松控制",
       "tags": {
         "shopping": 5,
         "movement": 4,
@@ -1676,11 +1676,11 @@
   },
   {
     "id": 68,
-    "name": "Five of Pentacles",
+    "name": "星币五",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Material discomfort",
+      "meaning": "物质或身体上的不适",
       "tags": {
         "cold": 5,
         "tired": 4,
@@ -1689,7 +1689,7 @@
       }
     },
     "reversed": {
-      "meaning": "Shelter and assistance",
+      "meaning": "获得照顾和帮助",
       "tags": {
         "indoor": 5,
         "warm": 4,
@@ -1699,11 +1699,11 @@
   },
   {
     "id": 69,
-    "name": "Six of Pentacles",
+    "name": "星币六",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Giving and receiving",
+      "meaning": "付出与接受",
       "tags": {
         "pair": 5,
         "social": 4,
@@ -1712,7 +1712,7 @@
       }
     },
     "reversed": {
-      "meaning": "Uneven exchange",
+      "meaning": "付出与接受不平衡",
       "tags": {
         "tense": 5,
         "work": 4,
@@ -1722,11 +1722,11 @@
   },
   {
     "id": 70,
-    "name": "Seven of Pentacles",
+    "name": "星币七",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Patient evaluation",
+      "meaning": "耐心评估",
       "tags": {
         "nature": 5,
         "slow": 4,
@@ -1736,7 +1736,7 @@
       }
     },
     "reversed": {
-      "meaning": "Impatience with progress",
+      "meaning": "对进度缺乏耐心",
       "tags": {
         "fast": 5,
         "tense": 4,
@@ -1746,11 +1746,11 @@
   },
   {
     "id": 71,
-    "name": "Eight of Pentacles",
+    "name": "星币八",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Focused practice",
+      "meaning": "专注练习",
       "tags": {
         "work": 5,
         "study": 4,
@@ -1760,7 +1760,7 @@
       }
     },
     "reversed": {
-      "meaning": "Repetitive fatigue",
+      "meaning": "重复劳动带来疲劳",
       "tags": {
         "tired": 5,
         "work": 4,
@@ -1770,11 +1770,11 @@
   },
   {
     "id": 72,
-    "name": "Nine of Pentacles",
+    "name": "星币九",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Independent comfort",
+      "meaning": "独立享受舒适",
       "tags": {
         "nature": 5,
         "solitary": 4,
@@ -1785,7 +1785,7 @@
       }
     },
     "reversed": {
-      "meaning": "Comfort requiring maintenance",
+      "meaning": "舒适需要维护",
       "tags": {
         "work": 5,
         "caution": 4,
@@ -1795,11 +1795,11 @@
   },
   {
     "id": 73,
-    "name": "Ten of Pentacles",
+    "name": "星币十",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Established shared security",
+      "meaning": "稳定而共享的生活",
       "tags": {
         "home": 5,
         "group": 4,
@@ -1809,7 +1809,7 @@
       }
     },
     "reversed": {
-      "meaning": "Unsettled shared routines",
+      "meaning": "共同生活的规律被打乱",
       "tags": {
         "home": 5,
         "stress": 4,
@@ -1819,11 +1819,11 @@
   },
   {
     "id": 74,
-    "name": "Page of Pentacles",
+    "name": "星币侍从",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Practical learning",
+      "meaning": "务实地学习",
       "tags": {
         "study": 5,
         "nature": 4,
@@ -1834,7 +1834,7 @@
       }
     },
     "reversed": {
-      "meaning": "Difficulty sustaining attention",
+      "meaning": "难以持续专注",
       "tags": {
         "distracted": 5,
         "stationary": 4,
@@ -1844,11 +1844,11 @@
   },
   {
     "id": 75,
-    "name": "Knight of Pentacles",
+    "name": "星币骑士",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Steady physical progress",
+      "meaning": "踏实稳步前进",
       "tags": {
         "slow": 5,
         "work": 4,
@@ -1858,7 +1858,7 @@
       }
     },
     "reversed": {
-      "meaning": "Routine becoming inertia",
+      "meaning": "日常变成惯性",
       "tags": {
         "stationary": 5,
         "tired": 4,
@@ -1868,11 +1868,11 @@
   },
   {
     "id": 76,
-    "name": "Queen of Pentacles",
+    "name": "星币王后",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Grounded care and comfort",
+      "meaning": "细心照顾实际需要",
       "tags": {
         "food": 5,
         "nature": 4,
@@ -1882,7 +1882,7 @@
       }
     },
     "reversed": {
-      "meaning": "Care draining reserves",
+      "meaning": "照顾别人消耗了自己",
       "tags": {
         "tired": 5,
         "stress": 4,
@@ -1892,11 +1892,11 @@
   },
   {
     "id": 77,
-    "name": "King of Pentacles",
+    "name": "星币国王",
     "arcana": "minor",
     "suit": "Pentacles",
     "upright": {
-      "meaning": "Material steadiness",
+      "meaning": "物质生活稳定",
       "tags": {
         "order": 5,
         "shopping": 4,
@@ -1905,7 +1905,7 @@
       }
     },
     "reversed": {
-      "meaning": "Overattachment to comfort",
+      "meaning": "过于依赖舒适",
       "tags": {
         "indoor": 5,
         "stationary": 4,

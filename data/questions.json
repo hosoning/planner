@@ -1,8 +1,8 @@
 [
   {
     "id": "q01",
-    "text": "你現在主要在哪一類場所？",
-    "category": "環境",
+    "text": "你现在主要在哪一类场所？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -14,7 +14,7 @@
       },
       {
         "id": "1",
-        "label": "工作或學習場所",
+        "label": "工作或学习场所",
         "prototype": {
           "work": 5,
           "study": 4
@@ -22,7 +22,7 @@
       },
       {
         "id": "2",
-        "label": "室內公共場所",
+        "label": "室内公共场所",
         "prototype": {
           "urban": 5,
           "shopping": 4,
@@ -31,7 +31,7 @@
       },
       {
         "id": "3",
-        "label": "戶外且不在交通工具內",
+        "label": "户外且不在交通工具内",
         "prototype": {
           "outdoor": 5,
           "nature": 4
@@ -39,7 +39,7 @@
       },
       {
         "id": "4",
-        "label": "交通工具內",
+        "label": "交通工具内",
         "prototype": {
           "transport": 5,
           "movement": 4
@@ -1611,12 +1611,12 @@
   },
   {
     "id": "q02",
-    "text": "你現在所在位置有屋頂遮蔽嗎？",
-    "category": "環境",
+    "text": "你现在所在位置有屋顶遮蔽吗？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "室內完整遮蔽",
+        "label": "室内完整遮蔽",
         "prototype": {
           "indoor": 5,
           "home": 4
@@ -1624,7 +1624,7 @@
       },
       {
         "id": "1",
-        "label": "有頂的半戶外",
+        "label": "有顶的半户外",
         "prototype": {
           "stationary": 5,
           "caution": 4
@@ -2892,8 +2892,8 @@
   },
   {
     "id": "q03",
-    "text": "你現在十米內可見多少其他人？",
-    "category": "環境",
+    "text": "你现在十米内可见多少其他人？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -4337,12 +4337,12 @@
   },
   {
     "id": "q04",
-    "text": "此刻最明顯的環境聲是哪類？",
-    "category": "環境",
+    "text": "此刻最明显的环境声是哪类？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "近乎安靜",
+        "label": "近乎安静",
         "prototype": {
           "quiet": 5,
           "solitary": 4
@@ -4350,7 +4350,7 @@
       },
       {
         "id": "1",
-        "label": "人聲",
+        "label": "人声",
         "prototype": {
           "communication": 5,
           "group": 4
@@ -4358,7 +4358,7 @@
       },
       {
         "id": "2",
-        "label": "音樂或節目聲",
+        "label": "音乐或节目声",
         "prototype": {
           "creative": 5,
           "social": 4
@@ -4366,7 +4366,7 @@
       },
       {
         "id": "3",
-        "label": "機械或交通聲",
+        "label": "机械或交通声",
         "prototype": {
           "transport": 5,
           "noise": 4
@@ -4374,7 +4374,7 @@
       },
       {
         "id": "4",
-        "label": "自然聲",
+        "label": "自然声",
         "prototype": {
           "water": 5,
           "nature": 4
@@ -5946,8 +5946,8 @@
   },
   {
     "id": "q05",
-    "text": "你現在是否正在位移？",
-    "category": "環境",
+    "text": "你现在是否正在位移？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -5959,7 +5959,7 @@
       },
       {
         "id": "1",
-        "label": "徒步移動",
+        "label": "徒步移动",
         "prototype": {
           "walk": 5,
           "active": 4
@@ -7227,8 +7227,8 @@
   },
   {
     "id": "q06",
-    "text": "此刻主要照明來源是？",
-    "category": "環境",
+    "text": "此刻主要照明来源是？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -7240,7 +7240,7 @@
       },
       {
         "id": "1",
-        "label": "人工燈光",
+        "label": "人工灯光",
         "prototype": {
           "indoor": 5,
           "work": 4
@@ -7248,7 +7248,7 @@
       },
       {
         "id": "2",
-        "label": "螢幕或微弱光源",
+        "label": "萤幕或微弱光源",
         "prototype": {
           "dark": 5,
           "study": 4
@@ -7256,7 +7256,7 @@
       },
       {
         "id": "3",
-        "label": "幾乎無光",
+        "label": "几乎无光",
         "prototype": {
           "dark": 5,
           "sleep": 4
@@ -8672,8 +8672,8 @@
   },
   {
     "id": "q07",
-    "text": "你現在主要的身體姿勢是？",
-    "category": "環境",
+    "text": "你现在主要的身体姿势是？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -8701,7 +8701,7 @@
       },
       {
         "id": "3",
-        "label": "正在步行或運動",
+        "label": "正在步行或运动",
         "prototype": {
           "movement": 5,
           "fitness": 4
@@ -10117,12 +10117,12 @@
   },
   {
     "id": "q08",
-    "text": "你所在房間的窗戶情況是？",
-    "category": "環境",
+    "text": "你所在房间的窗户情况是？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "看得見窗外",
+        "label": "看得见窗外",
         "prototype": {
           "bright": 5,
           "skyline": 4
@@ -10130,7 +10130,7 @@
       },
       {
         "id": "1",
-        "label": "有窗但窗簾遮住",
+        "label": "有窗但窗帘遮住",
         "prototype": {
           "indoor": 5,
           "quiet": 4
@@ -10138,7 +10138,7 @@
       },
       {
         "id": "2",
-        "label": "沒有窗或看不見窗",
+        "label": "没有窗或看不见窗",
         "prototype": {
           "dark": 5,
           "indoor": 4
@@ -10146,7 +10146,7 @@
       },
       {
         "id": "3",
-        "label": "我不在房間內",
+        "label": "我不在房间内",
         "prototype": {
           "outdoor": 5,
           "movement": 4
@@ -11562,8 +11562,8 @@
   },
   {
     "id": "q09",
-    "text": "你現在的溫度感受是？",
-    "category": "環境",
+    "text": "你现在的温度感受是？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -11575,7 +11575,7 @@
       },
       {
         "id": "1",
-        "label": "舒適",
+        "label": "舒适",
         "prototype": {
           "calm": 5,
           "comfort": 4
@@ -11583,7 +11583,7 @@
       },
       {
         "id": "2",
-        "label": "偏熱",
+        "label": "偏热",
         "prototype": {
           "warm": 5,
           "active": 4
@@ -12843,12 +12843,12 @@
   },
   {
     "id": "q10",
-    "text": "你現在是否聽到別人直接跟你說話？",
-    "category": "環境",
+    "text": "你现在是否听到别人直接跟你说话？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "正在跟我說話",
+        "label": "正在跟我说话",
         "prototype": {
           "communication": 5,
           "pair": 4
@@ -12856,7 +12856,7 @@
       },
       {
         "id": "1",
-        "label": "有人說話但不是對我",
+        "label": "有人说话但不是对我",
         "prototype": {
           "group": 5,
           "noise": 4
@@ -12864,7 +12864,7 @@
       },
       {
         "id": "2",
-        "label": "沒有人聲",
+        "label": "没有人声",
         "prototype": {
           "quiet": 5,
           "solitary": 4
@@ -14124,12 +14124,12 @@
   },
   {
     "id": "q11",
-    "text": "你現在的工作台面最接近？",
-    "category": "環境",
+    "text": "你现在的工作台面最接近？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "沒有在使用台面",
+        "label": "没有在使用台面",
         "prototype": {
           "outdoor": 5,
           "movement": 4
@@ -14145,7 +14145,7 @@
       },
       {
         "id": "2",
-        "label": "放有食物飲品",
+        "label": "放有食物饮品",
         "prototype": {
           "food": 5,
           "comfort": 4
@@ -14153,7 +14153,7 @@
       },
       {
         "id": "3",
-        "label": "主要是工作學習用品",
+        "label": "主要是工作学习用品",
         "prototype": {
           "work": 5,
           "study": 4
@@ -14161,7 +14161,7 @@
       },
       {
         "id": "4",
-        "label": "主要是其他雜物",
+        "label": "主要是其他杂物",
         "prototype": {
           "distracted": 5,
           "shopping": 4
@@ -15733,12 +15733,12 @@
   },
   {
     "id": "q12",
-    "text": "你現在是否能看見植物？",
-    "category": "環境",
+    "text": "你现在是否能看见植物？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "近距離室內植物",
+        "label": "近距离室内植物",
         "prototype": {
           "home": 5,
           "nature": 4
@@ -15746,7 +15746,7 @@
       },
       {
         "id": "1",
-        "label": "戶外樹木或植物",
+        "label": "户外树木或植物",
         "prototype": {
           "nature": 5,
           "outdoor": 4
@@ -15754,7 +15754,7 @@
       },
       {
         "id": "2",
-        "label": "只能看見圖片中的植物",
+        "label": "只能看见图片中的植物",
         "prototype": {
           "creative": 5,
           "indoor": 4
@@ -15762,7 +15762,7 @@
       },
       {
         "id": "3",
-        "label": "看不見植物",
+        "label": "看不见植物",
         "prototype": {
           "urban": 5,
           "work": 4
@@ -17178,8 +17178,8 @@
   },
   {
     "id": "q13",
-    "text": "你現在是否能看見自然水面？",
-    "category": "環境",
+    "text": "你现在是否能看见自然水面？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -18460,7 +18460,7 @@
   {
     "id": "q14",
     "text": "你此刻附近是否有食物？",
-    "category": "環境",
+    "category": "环境",
     "options": [
       {
         "id": "0",
@@ -18472,7 +18472,7 @@
       },
       {
         "id": "1",
-        "label": "看得到但沒在吃",
+        "label": "看得到但没在吃",
         "prototype": {
           "food": 5,
           "stationary": 4
@@ -19740,12 +19740,12 @@
   },
   {
     "id": "q15",
-    "text": "你此刻是否戴耳機？",
-    "category": "環境",
+    "text": "你此刻是否戴耳机？",
+    "category": "环境",
     "options": [
       {
         "id": "0",
-        "label": "戴著且播放內容",
+        "label": "戴著且播放内容",
         "prototype": {
           "creative": 5,
           "focus": 4
@@ -19753,7 +19753,7 @@
       },
       {
         "id": "1",
-        "label": "戴著但沒播放",
+        "label": "戴著但没播放",
         "prototype": {
           "quiet": 5,
           "independent": 4
@@ -19761,7 +19761,7 @@
       },
       {
         "id": "2",
-        "label": "沒有戴",
+        "label": "没有戴",
         "prototype": {
           "communication": 5,
           "social": 4
@@ -21021,8 +21021,8 @@
   },
   {
     "id": "q16",
-    "text": "你目前的精神狀態最接近？",
-    "category": "當下狀態",
+    "text": "你目前的精神状态最接近？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
@@ -21034,7 +21034,7 @@
       },
       {
         "id": "1",
-        "label": "平穩，能正常做事",
+        "label": "平稳，能正常做事",
         "prototype": {
           "calm": 5,
           "focus": 4
@@ -21050,7 +21050,7 @@
       },
       {
         "id": "3",
-        "label": "明顯想睡",
+        "label": "明显想睡",
         "prototype": {
           "sleep": 5,
           "rest": 4
@@ -22466,8 +22466,8 @@
   },
   {
     "id": "q17",
-    "text": "你此刻最明顯的情緒是？",
-    "category": "當下狀態",
+    "text": "你此刻最明显的情绪是？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
@@ -22479,7 +22479,7 @@
       },
       {
         "id": "1",
-        "label": "平靜或普通",
+        "label": "平静或普通",
         "prototype": {
           "calm": 5,
           "stationary": 4
@@ -22487,7 +22487,7 @@
       },
       {
         "id": "2",
-        "label": "焦躁或緊張",
+        "label": "焦躁或紧张",
         "prototype": {
           "tense": 5,
           "stress": 4
@@ -23911,12 +23911,12 @@
   },
   {
     "id": "q18",
-    "text": "你現在身體的疲勞程度是？",
-    "category": "當下狀態",
+    "text": "你现在身体的疲劳程度是？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "沒有明顯疲勞",
+        "label": "没有明显疲劳",
         "prototype": {
           "active": 5,
           "fitness": 4
@@ -23924,7 +23924,7 @@
       },
       {
         "id": "1",
-        "label": "輕微，不妨礙行動",
+        "label": "轻微，不妨碍行动",
         "prototype": {
           "slow": 5,
           "work": 4
@@ -23932,7 +23932,7 @@
       },
       {
         "id": "2",
-        "label": "明顯，想休息",
+        "label": "明显，想休息",
         "prototype": {
           "tired": 5,
           "rest": 4
@@ -25192,12 +25192,12 @@
   },
   {
     "id": "q19",
-    "text": "你剛才五分鐘的注意力是？",
-    "category": "當下狀態",
+    "text": "你刚才五分钟的注意力是？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "專注一件事",
+        "label": "专注一件事",
         "prototype": {
           "focus": 5,
           "study": 4
@@ -25205,7 +25205,7 @@
       },
       {
         "id": "1",
-        "label": "在幾件事之間切換",
+        "label": "在几件事之间切换",
         "prototype": {
           "distracted": 5,
           "work": 4
@@ -25213,7 +25213,7 @@
       },
       {
         "id": "2",
-        "label": "發呆或休息",
+        "label": "发呆或休息",
         "prototype": {
           "rest": 5,
           "reflect": 4
@@ -26473,12 +26473,12 @@
   },
   {
     "id": "q20",
-    "text": "你此刻的飢餓感是？",
-    "category": "當下狀態",
+    "text": "你此刻的饥饿感是？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "明顯餓",
+        "label": "明显饿",
         "prototype": {
           "hunger": 5,
           "active": 4
@@ -26486,7 +26486,7 @@
       },
       {
         "id": "1",
-        "label": "有點餓但不急",
+        "label": "有点饿但不急",
         "prototype": {
           "food": 5,
           "slow": 4
@@ -26494,7 +26494,7 @@
       },
       {
         "id": "2",
-        "label": "不餓也不飽",
+        "label": "不饿也不饱",
         "prototype": {
           "calm": 5,
           "stationary": 4
@@ -26502,7 +26502,7 @@
       },
       {
         "id": "3",
-        "label": "剛吃飽",
+        "label": "刚吃饱",
         "prototype": {
           "food": 5,
           "comfort": 4
@@ -27919,11 +27919,11 @@
   {
     "id": "q21",
     "text": "你此刻的口渴感是？",
-    "category": "當下狀態",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "明顯口渴",
+        "label": "明显口渴",
         "prototype": {
           "warm": 5,
           "active": 4
@@ -27931,7 +27931,7 @@
       },
       {
         "id": "1",
-        "label": "輕微口渴",
+        "label": "轻微口渴",
         "prototype": {
           "water": 5,
           "slow": 4
@@ -27939,7 +27939,7 @@
       },
       {
         "id": "2",
-        "label": "沒有口渴",
+        "label": "没有口渴",
         "prototype": {
           "calm": 5,
           "comfort": 4
@@ -29199,12 +29199,12 @@
   },
   {
     "id": "q22",
-    "text": "你現在是否有待處理的緊急事情？",
-    "category": "當下狀態",
+    "text": "你现在是否有待处理的紧急事情？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "一小時內必須處理",
+        "label": "一小时内必须处理",
         "prototype": {
           "fast": 5,
           "stress": 4
@@ -29212,7 +29212,7 @@
       },
       {
         "id": "1",
-        "label": "今天要處理但不緊急",
+        "label": "今天要处理但不紧急",
         "prototype": {
           "work": 5,
           "order": 4
@@ -29220,7 +29220,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "rest": 5,
           "calm": 4
@@ -30480,8 +30480,8 @@
   },
   {
     "id": "q23",
-    "text": "你現在衣著最接近哪類？",
-    "category": "當下狀態",
+    "text": "你现在衣著最接近哪类？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
@@ -30493,7 +30493,7 @@
       },
       {
         "id": "1",
-        "label": "工作或學校制服",
+        "label": "工作或学校制服",
         "prototype": {
           "work": 5,
           "order": 4
@@ -30501,7 +30501,7 @@
       },
       {
         "id": "2",
-        "label": "運動服",
+        "label": "运动服",
         "prototype": {
           "fitness": 5,
           "active": 4
@@ -31925,12 +31925,12 @@
   },
   {
     "id": "q24",
-    "text": "你此刻的雙腳狀態是？",
-    "category": "當下狀態",
+    "text": "你此刻的双脚状态是？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
-        "label": "赤腳",
+        "label": "赤脚",
         "prototype": {
           "home": 5,
           "comfort": 4
@@ -31938,7 +31938,7 @@
       },
       {
         "id": "1",
-        "label": "襪子但沒有鞋",
+        "label": "袜子但没有鞋",
         "prototype": {
           "indoor": 5,
           "rest": 4
@@ -31954,7 +31954,7 @@
       },
       {
         "id": "3",
-        "label": "其他鞋類",
+        "label": "其他鞋类",
         "prototype": {
           "walk": 5,
           "movement": 4
@@ -33370,8 +33370,8 @@
   },
   {
     "id": "q25",
-    "text": "你此刻正在喝什麼？",
-    "category": "當下狀態",
+    "text": "你此刻正在喝什么？",
+    "category": "当下状态",
     "options": [
       {
         "id": "0",
@@ -33391,7 +33391,7 @@
       },
       {
         "id": "2",
-        "label": "其他飲品",
+        "label": "其他饮品",
         "prototype": {
           "food": 5,
           "social": 4
@@ -33399,7 +33399,7 @@
       },
       {
         "id": "3",
-        "label": "沒有在喝",
+        "label": "没有在喝",
         "prototype": {
           "hunger": 5,
           "stationary": 4
@@ -34815,12 +34815,12 @@
   },
   {
     "id": "q26",
-    "text": "打開本頁前，最近的主要活動是？",
-    "category": "當下活動",
+    "text": "打开本页前，最近的主要活动是？",
+    "category": "当下活动",
     "options": [
       {
         "id": "0",
-        "label": "工作或學習",
+        "label": "工作或学习",
         "prototype": {
           "work": 5,
           "study": 4
@@ -34844,7 +34844,7 @@
       },
       {
         "id": "3",
-        "label": "外出移動",
+        "label": "外出移动",
         "prototype": {
           "movement": 5,
           "travel": 4
@@ -34852,7 +34852,7 @@
       },
       {
         "id": "4",
-        "label": "娛樂或聊天",
+        "label": "娱乐或聊天",
         "prototype": {
           "creative": 5,
           "communication": 4
@@ -36424,12 +36424,12 @@
   },
   {
     "id": "q27",
-    "text": "你此刻是否同時在看另一個螢幕？",
-    "category": "當下活動",
+    "text": "你此刻是否同时在看另一个萤幕？",
+    "category": "当下活动",
     "options": [
       {
         "id": "0",
-        "label": "有，工作學習用途",
+        "label": "有，工作学习用途",
         "prototype": {
           "work": 5,
           "focus": 4
@@ -36437,7 +36437,7 @@
       },
       {
         "id": "1",
-        "label": "有，娛樂用途",
+        "label": "有，娱乐用途",
         "prototype": {
           "creative": 5,
           "distracted": 4
@@ -36445,7 +36445,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "quiet": 5,
           "independent": 4
@@ -37705,12 +37705,12 @@
   },
   {
     "id": "q28",
-    "text": "你現在是否正在等待某件事？",
-    "category": "當下活動",
+    "text": "你现在是否正在等待某件事？",
+    "category": "当下活动",
     "options": [
       {
         "id": "0",
-        "label": "等人或回覆",
+        "label": "等人或回复",
         "prototype": {
           "pair": 5,
           "communication": 4
@@ -37718,7 +37718,7 @@
       },
       {
         "id": "1",
-        "label": "等交通或到達",
+        "label": "等交通或到达",
         "prototype": {
           "transport": 5,
           "travel": 4
@@ -37726,7 +37726,7 @@
       },
       {
         "id": "2",
-        "label": "等工作或服務完成",
+        "label": "等工作或服务完成",
         "prototype": {
           "work": 5,
           "stationary": 4
@@ -37734,7 +37734,7 @@
       },
       {
         "id": "3",
-        "label": "沒有在等",
+        "label": "没有在等",
         "prototype": {
           "active": 5,
           "independent": 4
@@ -39150,12 +39150,12 @@
   },
   {
     "id": "q29",
-    "text": "你現在手邊是否有紙本？",
-    "category": "當下活動",
+    "text": "你现在手边是否有纸本？",
+    "category": "当下活动",
     "options": [
       {
         "id": "0",
-        "label": "書籍或講義",
+        "label": "书籍或讲义",
         "prototype": {
           "study": 5,
           "culture": 4
@@ -39163,7 +39163,7 @@
       },
       {
         "id": "1",
-        "label": "筆記或工作文件",
+        "label": "笔记或工作文件",
         "prototype": {
           "work": 5,
           "order": 4
@@ -39171,7 +39171,7 @@
       },
       {
         "id": "2",
-        "label": "收據包裝等其他紙本",
+        "label": "收据包装等其他纸本",
         "prototype": {
           "shopping": 5,
           "food": 4
@@ -39179,7 +39179,7 @@
       },
       {
         "id": "3",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "outdoor": 5,
           "independent": 4
@@ -40595,12 +40595,12 @@
   },
   {
     "id": "q30",
-    "text": "你現在主要使用哪種裝置？",
-    "category": "當下活動",
+    "text": "你现在主要使用哪种装置？",
+    "category": "当下活动",
     "options": [
       {
         "id": "0",
-        "label": "手機",
+        "label": "手机",
         "prototype": {
           "movement": 5,
           "communication": 4
@@ -40616,7 +40616,7 @@
       },
       {
         "id": "2",
-        "label": "電腦",
+        "label": "电脑",
         "prototype": {
           "work": 5,
           "focus": 4
@@ -41876,12 +41876,12 @@
   },
   {
     "id": "q31",
-    "text": "最近一小時你有沒有離開建築物？",
-    "category": "近期事實",
+    "text": "最近一小时你有没有离开建筑物？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，到過戶外",
+        "label": "有，到过户外",
         "prototype": {
           "outdoor": 5,
           "movement": 4
@@ -41889,7 +41889,7 @@
       },
       {
         "id": "1",
-        "label": "沒有，一直在室內",
+        "label": "没有，一直在室内",
         "prototype": {
           "indoor": 5,
           "stationary": 4
@@ -41897,7 +41897,7 @@
       },
       {
         "id": "2",
-        "label": "一直主要在戶外",
+        "label": "一直主要在户外",
         "prototype": {
           "outdoor": 5,
           "nature": 4
@@ -43157,8 +43157,8 @@
   },
   {
     "id": "q32",
-    "text": "最近兩小時你有吃過一餐嗎？",
-    "category": "近期事實",
+    "text": "最近两小时你有吃过一餐吗？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -43178,7 +43178,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "hunger": 5,
           "focus": 4
@@ -44438,8 +44438,8 @@
   },
   {
     "id": "q33",
-    "text": "最近一小時你有喝水嗎？",
-    "category": "近期事實",
+    "text": "最近一小时你有喝水吗？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -44451,7 +44451,7 @@
       },
       {
         "id": "1",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "work": 5,
           "focus": 4
@@ -45555,12 +45555,12 @@
   },
   {
     "id": "q34",
-    "text": "最近兩小時你是否與人面對面交談超過五分鐘？",
-    "category": "近期事實",
+    "text": "最近两小时你是否与人面对面交谈超过五分钟？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，一對一",
+        "label": "有，一对一",
         "prototype": {
           "pair": 5,
           "communication": 4
@@ -45568,7 +45568,7 @@
       },
       {
         "id": "1",
-        "label": "有，多人交談",
+        "label": "有，多人交谈",
         "prototype": {
           "group": 5,
           "social": 4
@@ -45576,7 +45576,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "solitary": 5,
           "quiet": 4
@@ -46836,8 +46836,8 @@
   },
   {
     "id": "q35",
-    "text": "最近兩小時你是否搭過交通工具？",
-    "category": "近期事實",
+    "text": "最近两小时你是否搭过交通工具？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -46849,7 +46849,7 @@
       },
       {
         "id": "1",
-        "label": "汽車或的士",
+        "label": "汽车或的士",
         "prototype": {
           "travel": 5,
           "urban": 4
@@ -46857,7 +46857,7 @@
       },
       {
         "id": "2",
-        "label": "單車或類似工具",
+        "label": "单车或类似工具",
         "prototype": {
           "fitness": 5,
           "movement": 4
@@ -46865,7 +46865,7 @@
       },
       {
         "id": "3",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "stationary": 5,
           "home": 4
@@ -48281,12 +48281,12 @@
   },
   {
     "id": "q36",
-    "text": "最近兩小時你是否付過款？",
-    "category": "近期事實",
+    "text": "最近两小时你是否付过款？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "買食物或飲料",
+        "label": "买食物或饮料",
         "prototype": {
           "food": 5,
           "shopping": 4
@@ -48294,7 +48294,7 @@
       },
       {
         "id": "1",
-        "label": "交通費",
+        "label": "交通费",
         "prototype": {
           "transport": 5,
           "travel": 4
@@ -48302,7 +48302,7 @@
       },
       {
         "id": "2",
-        "label": "其他消費",
+        "label": "其他消费",
         "prototype": {
           "shopping": 5,
           "urban": 4
@@ -48310,7 +48310,7 @@
       },
       {
         "id": "3",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "quiet": 5,
           "stationary": 4
@@ -49726,8 +49726,8 @@
   },
   {
     "id": "q37",
-    "text": "最近一小時你是否走路至少十分鐘？",
-    "category": "近期事實",
+    "text": "最近一小时你是否走路至少十分钟？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -49739,7 +49739,7 @@
       },
       {
         "id": "1",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "stationary": 5,
           "rest": 4
@@ -50843,8 +50843,8 @@
   },
   {
     "id": "q38",
-    "text": "最近三小時你是否工作或學習至少半小時？",
-    "category": "近期事實",
+    "text": "最近三小时你是否工作或学习至少半小时？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -50856,7 +50856,7 @@
       },
       {
         "id": "1",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "rest": 5,
           "creative": 4
@@ -51960,12 +51960,12 @@
   },
   {
     "id": "q39",
-    "text": "最近三小時你是否睡過覺？",
-    "category": "近期事實",
+    "text": "最近三小时你是否睡过觉？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，至少二十分鐘",
+        "label": "有，至少二十分钟",
         "prototype": {
           "sleep": 5,
           "rest": 4
@@ -51973,7 +51973,7 @@
       },
       {
         "id": "1",
-        "label": "只是短暫打盹",
+        "label": "只是短暂打盹",
         "prototype": {
           "tired": 5,
           "slow": 4
@@ -51981,7 +51981,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "active": 5,
           "focus": 4
@@ -53241,12 +53241,12 @@
   },
   {
     "id": "q40",
-    "text": "最近一小時你是否聽過音樂？",
-    "category": "近期事實",
+    "text": "最近一小时你是否听过音乐？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，主動播放",
+        "label": "有，主动播放",
         "prototype": {
           "creative": 5,
           "independent": 4
@@ -53254,7 +53254,7 @@
       },
       {
         "id": "1",
-        "label": "有，環境背景音樂",
+        "label": "有，环境背景音乐",
         "prototype": {
           "noise": 5,
           "social": 4
@@ -53262,7 +53262,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "quiet": 5,
           "work": 4
@@ -54522,8 +54522,8 @@
   },
   {
     "id": "q41",
-    "text": "最近兩小時你是否拍過照片？",
-    "category": "近期事實",
+    "text": "最近两小时你是否拍过照片？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -54543,7 +54543,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "stationary": 5,
           "work": 4
@@ -55803,8 +55803,8 @@
   },
   {
     "id": "q42",
-    "text": "最近兩小時你是否運動到明顯喘氣？",
-    "category": "近期事實",
+    "text": "最近两小时你是否运动到明显喘气？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -55816,7 +55816,7 @@
       },
       {
         "id": "1",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "rest": 5,
           "slow": 4
@@ -56920,12 +56920,12 @@
   },
   {
     "id": "q43",
-    "text": "最近一小時你是否接打過電話或語音通話？",
-    "category": "近期事實",
+    "text": "最近一小时你是否接打过电话或语音通话？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，工作相關",
+        "label": "有，工作相关",
         "prototype": {
           "work": 5,
           "communication": 4
@@ -56933,7 +56933,7 @@
       },
       {
         "id": "1",
-        "label": "有，私人通話",
+        "label": "有，私人通话",
         "prototype": {
           "pair": 5,
           "social": 4
@@ -56941,7 +56941,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "quiet": 5,
           "solitary": 4
@@ -58201,12 +58201,12 @@
   },
   {
     "id": "q44",
-    "text": "最近兩小時你是否看過影片超過十分鐘？",
-    "category": "近期事實",
+    "text": "最近两小时你是否看过影片超过十分钟？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，工作學習影片",
+        "label": "有，工作学习影片",
         "prototype": {
           "study": 5,
           "focus": 4
@@ -58214,7 +58214,7 @@
       },
       {
         "id": "1",
-        "label": "有，娛樂影片",
+        "label": "有，娱乐影片",
         "prototype": {
           "creative": 5,
           "rest": 4
@@ -58222,7 +58222,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "active": 5,
           "outdoor": 4
@@ -59482,8 +59482,8 @@
   },
   {
     "id": "q45",
-    "text": "最近三小時你主要在哪一處？",
-    "category": "近期事實",
+    "text": "最近三小时你主要在哪一处？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -59495,7 +59495,7 @@
       },
       {
         "id": "1",
-        "label": "工作或學校",
+        "label": "工作或学校",
         "prototype": {
           "work": 5,
           "study": 4
@@ -59503,7 +59503,7 @@
       },
       {
         "id": "2",
-        "label": "其他室內場所",
+        "label": "其他室内场所",
         "prototype": {
           "indoor": 5,
           "social": 4
@@ -59511,7 +59511,7 @@
       },
       {
         "id": "3",
-        "label": "戶外或交通途中",
+        "label": "户外或交通途中",
         "prototype": {
           "outdoor": 5,
           "travel": 4
@@ -60927,8 +60927,8 @@
   },
   {
     "id": "q46",
-    "text": "最近兩小時你是否整理或清潔過物品？",
-    "category": "近期事實",
+    "text": "最近两小时你是否整理或清洁过物品？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
@@ -60940,7 +60940,7 @@
       },
       {
         "id": "1",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "distracted": 5,
           "creative": 4
@@ -62044,12 +62044,12 @@
   },
   {
     "id": "q47",
-    "text": "最近一小時你收到的主要訊息是哪類？",
-    "category": "近期事實",
+    "text": "最近一小时你收到的主要讯息是哪类？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "工作或學習",
+        "label": "工作或学习",
         "prototype": {
           "work": 5,
           "communication": 4
@@ -62057,7 +62057,7 @@
       },
       {
         "id": "1",
-        "label": "親友私人訊息",
+        "label": "亲友私人讯息",
         "prototype": {
           "pair": 5,
           "social": 4
@@ -62065,7 +62065,7 @@
       },
       {
         "id": "2",
-        "label": "推廣或系統通知",
+        "label": "推广或系统通知",
         "prototype": {
           "shopping": 5,
           "noise": 4
@@ -62073,7 +62073,7 @@
       },
       {
         "id": "3",
-        "label": "沒有收到",
+        "label": "没有收到",
         "prototype": {
           "quiet": 5,
           "solitary": 4
@@ -63489,12 +63489,12 @@
   },
   {
     "id": "q48",
-    "text": "最近兩小時你是否換過衣服？",
-    "category": "近期事實",
+    "text": "最近两小时你是否换过衣服？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，準備外出或運動",
+        "label": "有，准备外出或运动",
         "prototype": {
           "movement": 5,
           "fitness": 4
@@ -63502,7 +63502,7 @@
       },
       {
         "id": "1",
-        "label": "有，準備休息",
+        "label": "有，准备休息",
         "prototype": {
           "home": 5,
           "rest": 4
@@ -63510,7 +63510,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "stationary": 5,
           "work": 4
@@ -64770,12 +64770,12 @@
   },
   {
     "id": "q49",
-    "text": "最近一小時你是否與動物互動？",
-    "category": "近期事實",
+    "text": "最近一小时你是否与动物互动？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，寵物",
+        "label": "有，宠物",
         "prototype": {
           "home": 5,
           "nature": 4
@@ -64783,7 +64783,7 @@
       },
       {
         "id": "1",
-        "label": "有，其他動物",
+        "label": "有，其他动物",
         "prototype": {
           "outdoor": 5,
           "nature": 4
@@ -64791,7 +64791,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "urban": 5,
           "work": 4
@@ -66051,12 +66051,12 @@
   },
   {
     "id": "q50",
-    "text": "最近兩小時你的行程有沒有臨時改變？",
-    "category": "近期事實",
+    "text": "最近两小时你的行程有没有临时改变？",
+    "category": "近期事实",
     "options": [
       {
         "id": "0",
-        "label": "有，被迫改變",
+        "label": "有，被迫改变",
         "prototype": {
           "change": 5,
           "stress": 4
@@ -66064,7 +66064,7 @@
       },
       {
         "id": "1",
-        "label": "有，主動改變",
+        "label": "有，主动改变",
         "prototype": {
           "change": 5,
           "independent": 4
@@ -66072,7 +66072,7 @@
       },
       {
         "id": "2",
-        "label": "沒有",
+        "label": "没有",
         "prototype": {
           "order": 5,
           "calm": 4

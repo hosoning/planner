@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Arcana · 私人約會",
-  description: "夢角約會行程與站內日程。",
+  title: "Arcana · 私人约会",
+  description: "私人约会行程与日历。",
   other: {
     "codex-preview": "development",
   },
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant">
+    <html lang="zh-CN">
       <body className="antialiased">{children}</body>
     </html>
   );
