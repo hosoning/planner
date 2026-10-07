@@ -15,6 +15,13 @@
       "when": 1791347364567,
       "tag": "0001_flashy_clint_barton",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791351396119,
+      "tag": "0002_funny_kingpin",
+      "breakpoints": true
     }
   ]
 }

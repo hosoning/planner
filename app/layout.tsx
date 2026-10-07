@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Arcana — A day drawn for you",
-  description: "Private tarot itinerary studio. Chance sets the direction; reality sets the limits.",
+  title: "Arcana · 私人約會",
+  description: "夢角約會行程與站內日程。",
   other: {
     "codex-preview": "development",
   },

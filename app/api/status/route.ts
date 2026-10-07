@@ -1,3 +1,2 @@
-import {env} from 'cloudflare:workers';
-import {parseCatalog} from '../../../lib/tarot/google';
-export async function GET(){return Response.json({liveReady:!!env.GOOGLE_MAPS_API_KEY&&parseCatalog(env.VERIFIED_POI_CATALOG).length>0,catalogCount:parseCatalog(env.VERIFIED_POI_CATALOG).length},{headers:{'Cache-Control':'no-store'}});}
+import {venues,OPEN_DATA_UNTIL} from '../../../lib/tarot/open-data';
+export async function GET(){return Response.json({liveReady:true,provider:'open',validUntil:OPEN_DATA_UNTIL,venues:venues.map(v=>({name:v.name,address:v.address,source:v.source}))},{headers:{'Cache-Control':'no-store'}});}
