@@ -55,3 +55,25 @@ Site identity is in `.openai/hosting.json`. Source and deployment are kept priva
 - Mapping is editorial symbolism, not evidence that tarot predicts current facts. Ties use fixed option ordering.
 - Page reload currently returns to trip entry; D1 preserves round authority for retries in an active UI session.
 - Browser print/PDF and screenshot view are provided; there is no public share link.
+
+## Edition II (2026-10-07)
+
+See `SPEC-V2.md`, which supersedes the v1 calibration UI, spread, duration and surprise behavior.
+
+- 41 cards in one draw: calibration + 40 formal detail decisions.
+- Prediction first, then yes/no/skip. Both passed and failed rounds have commitment proofs.
+- Short trips and next-day/overnight end times; 1–4 meals, start windows, home/takeaway/restaurant class, per-stop region and activity confirmations.
+- Every stop has name/address, inbound mode/time/cost, booking metadata, deposit status. Demo booking pages are local explanatory fixtures, not real reservations.
+- Surprise results are server-redacted until each release time; first stop gets two hours' notice. The executor still needs to confirm actual initial travel time with the participant.
+- Explicit organizer Markdown export contains all spoilers and timed messages. Spoiler-free ICS reminders link to the private app. Files must be forwarded/imported by the user; the app sends no messages or background push. The open page polls every 30 seconds.
+- D1 saves the chosen itinerary and user-recorded booking/payment/gift completion. Reload resumes it. Recording a confirmation does not make a booking or pay money.
+
+### Additional live catalog fields
+
+Each record now requires operator-owned `name`, `address`, and `booking` (required, URL, status, depositKind, deposit in cents, deadline, cancellation terms). `region` is one of downtown/north/coquitlam/richmond/kitsilano/other for Vancouver; `mealStyle` is home/takeaway/regular/premium. Add true cuisine and activity tags. Never supply home meals without a verified actual base/meal arrangement.
+
+`routeCaps[destinationPlaceId + ':' + mode]` must contain a verified conservative `minutes`, `cost` in cents, `validUntil` date and HTTPS `source`. Google verifies its current estimate against this operator-owned cap; an exceeded cap is rejected. Only the operator-owned cap is saved with the itinerary. Saved plans strip Google coordinates, opening periods and attributions; full Google responses are not stored. A saved plan records validation time, not a promise that conditions cannot change. Check operational changes with the venue/operator before travel.
+
+Apply `drizzle/0001_flashy_clint_barton.sql` once to an existing local v1 database (same wrangler command as above, new filename). Sites applies this additive migration during publication. Do not reapply v1 migration to an existing database.
+
+Run `node --import tsx --test tests/core.test.ts` and, with local preview running, `node tests/http.mjs` for the v2 tests.

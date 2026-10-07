@@ -8,6 +8,13 @@
       "when": 1791279391778,
       "tag": "0000_broken_madrox",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791347364567,
+      "tag": "0001_flashy_clint_barton",
+      "breakpoints": true
     }
   ]
 }

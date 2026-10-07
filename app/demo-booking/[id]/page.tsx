@@ -1,0 +1,1 @@
+export default function DemoBooking(){return <main style={{maxWidth:600,margin:'80px auto',padding:28}}><p>ARCANA · DEMONSTRATION</p><h1>這是一個示範預訂頁。</h1><p>此場所與地址是虛構測試資料，沒有真實預約或付款功能。</p><p>真實模式會連結至餐廳或活動營運方已核實的預訂頁；你或執行方需自行確認時段、訂金及取消規則。</p><a href="/">返回 Arcana</a></main>}
