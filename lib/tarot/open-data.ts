@@ -1,3 +1,4 @@
+import {searchAndConfirm,type SearchReport} from './discovery';
 import routes from '../../data/verified-routes.json';
 import forecast from '../../data/verified-weather.json';
 import type {Trip,Snapshot} from './core';
@@ -18,8 +19,8 @@ export const venues=[
 ];
 export type DataAccess={get:(key:string)=>Promise<string|null>;put:(key:string,value:string,ttl:number)=>Promise<void>;limit:(service:string)=>Promise<void>};
 export function openProvider(access:DataAccess,transport:typeof fetch=fetch):Provider {
- let weatherData:Weather[]|null=null;
- return {walkingOnly:true,async candidates(s){
+ let weatherData:Weather[]|null=null;let search:SearchReport|undefined;let candidates:POI[]|undefined;
+ return {walkingOnly:true,searchReport:()=>search,async candidates(s){if(candidates)return candidates;
   const t=s.trip;if(t.city.toLowerCase()!=='vancouver'||t.currency!=='CAD')throw Error('目前支持 Vancouver / CAD。');
   if(t.date>OPEN_DATA_UNTIL)throw Error('请选择 10 月 14 日或以前；之后的营业资料尚未核实。');
   if(t.date==='2026-10-12')throw Error('10 月 12 日是假日，商户假日营业时间尚未确认，请换一天。');
@@ -37,7 +38,7 @@ export function openProvider(access:DataAccess,transport:typeof fetch=fetch):Pro
      menu:dish?{dish:dish.dish,source:v.menuSource||v.source,validUntil:OPEN_DATA_UNTIL}:undefined,
      attributions:[{provider:'OpenStreetMap contributors',providerUri:'https://www.openstreetmap.org/copyright'}]});
    }
-  }return out;
+  }const result=searchAndConfirm(s,out);search=result.report;candidates=result.pois;return candidates;
  },
  async weather(_p,t){
   if(weatherData)return weatherData;

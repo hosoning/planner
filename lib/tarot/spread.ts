@@ -5,7 +5,7 @@ export type Definition={id:string;question:string;options:Choice[]};
 const opts=(rows:string[])=>rows.map(row=>{const [id,label,tags]=row.split('|');return {id,label,tags:tags.split(' ')}});
 const yesNo=opts(['yes|是|active social change','no|否|quiet caution rest']);
 const areas=opts(['downtown|Downtown|urban shopping work','north|North Vancouver|mountain nature adventure','coquitlam|Coquitlam|nature slow family','richmond|Richmond|food group culture','kitsilano|Kitsilano|beach water calm','other|其他已核实地区|travel independent creative']);
-export const activities=opts(['walk|散步与探索|walk slow outdoor','beach|海边|beach water calm','shopping|购物逛街|shopping urban comfort','photography|拍照|photography bright creative','exhibition|展览|exhibition creative culture','museum|博物馆|museum study quiet','skyline|城市景观|skyline urban bright','boat|搭船|boat water travel','mountain|上山|mountain nature adventure','paragliding|滑翔伞|paragliding adventure active','fitness|运动健身|fitness active focus']);
+export const activities=opts(['walk|散步与探索|walk slow outdoor','beach|海边|beach water calm','shopping|购物逛街|shopping urban comfort','photography|拍照|photography bright creative','exhibition|展览|exhibition creative culture','museum|博物馆|museum study quiet','skyline|城市景观|skyline urban bright','boat|搭船|boat water travel','mountain|上山|mountain nature adventure','paragliding|滑翔伞|paragliding adventure active','fitness|运动健身|fitness active focus','cinema|看电影|cinema creative quiet']);
 const cuisines=opts(['korean|韩式|warm group food','western|西餐|comfort urban food','chinese|中餐|chinese group culture','french|法餐|pair creative comfort','fastfood|快餐|fast movement active','dessert|奶茶、零食、甜点|bakery slow comfort','hotpot|火锅、烧烤|warm social group','other|其他菜系|water nature independent']);
 export const definitions:Definition[]=[
  {id:'outboundTime',question:'出门到第一站预留多久？',options:opts(['15|15 分钟|near fast focus','30|15–30 分钟|urban active','45|30–45 分钟|calm order','60|45–60 分钟|travel movement','90|60–90 分钟|nature adventure','120|90–120 分钟|far independent'])},
@@ -15,6 +15,8 @@ export const definitions:Definition[]=[
  {id:'mealCount',question:'行程内一共吃几餐？',options:opts(['1|1 餐|focus independent','2|2 餐|pair calm','3|3 餐|food social','4|4 餐|group comfort'])},
  {id:'firstMeal',question:'第一个行程是吃饭吗？',options:yesNo},
  ...Array.from({length:6},(_,i)=>({id:`region${i+1}`,question:`第 ${i+1} 站的地区？`,options:areas})),
+ ...Array.from({length:6},(_,i)=>({id:`direction${i+1}`,question:`第 ${i+1} 站的搜索方向？`,options:opts(['north|城市中心以北|mountain nature','east|城市中心以东|bright active','south|城市中心以南|food warm','west|城市中心以西|water calm','central|城市中心附近|urban work','any|不限方位|travel independent'])})),
+ ...Array.from({length:6},(_,i)=>Array.from({length:10},(_,j)=>({id:`shortlist${i+1}Candidate${j+1}`,question:`第 ${i+1} 站候选 ${j+1} 是否确认？`,options:yesNo}))).flat(),
  {id:'dish',question:'第一顿饭的菜色风格？',options:opts(['fresh|清爽、清新、偏轻盈|water nature','warm|温暖、饱足、熟悉感|warm home','crafted|讲究层次与摆盘|creative focus','sharing|适合分享、种类较多|group social'])},
  {id:'cuisine',question:'第一顿饭的菜系？',options:cuisines},
  ...Array.from({length:6},(_,i)=>({id:`activity${i+1}`,question:`第 ${i+1} 站做什么？`,options:activities})),

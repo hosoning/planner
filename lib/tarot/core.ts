@@ -1,7 +1,7 @@
 import {definitions,detailDecisions,cardCount,type Decision} from './spread';
 import ontology from '../../data/ontology.json';
 import questionData from '../../data/questions.json';
-export const VERSION = 'arcana-4.0';
+export const VERSION = 'arcana-5.0';
 export type Tags = Record<string, number>;
 export type Card = { id:number; name:string; orientation:'upright'|'reversed'; meaning:string; tags:Tags; role:string };
 export type Trip = {city:string;date:string;start:number;end:number;budget:number;currency:string;mode:'demo'|'live';timezone?:string;characterName?:string;userName?:string;homeAddress?:string;origin?:{lat:number;lng:number;label:string}};
