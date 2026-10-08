@@ -1,6 +1,26 @@
-# v6 更新
+# Arcana · 私人约会
 
-见 [SPEC-V6.md](SPEC-V6.md)：可选纪念昵称、全天 00:00–23:59、跨日最多 48 小时，以及按轮随机 ID 锁定同分候选顺序。当前数据和流程尚未达到 v6 完整发布门槛：仅 Vancouver 有少数可执行场地；美团 API 凭证缺失；逐站 A/B/C 与二次确认尚未接通。
+**打开可使用的网站：<https://hosoning.github.io/planner/>**
+
+源代码和完整抽牌逻辑在本仓库；行程 API 由 Cloudflare Worker + D1 提供。修改后运行 `npm run deploy:pages`，提交 `docs/` 并推送到 `main`，GitHub Pages 会更新网站。
+
+## 当前支持
+
+- 50 道校准题、78 张伟特塔罗牌、正逆位和完整 question-specific mapping；每题独立洗牌，校准与行程牌在回答前锁定。
+- Vancouver 实地资料与硬性约束筛选。当前只收录少量已核实场地；其他城市资料未接入。
+- 真实地址、交通时长、订位链接、按时间揭晓、预订协助资料和 PNG 纪念长图。
+- 手机日历导出、行程保存，以及惊喜模式。
+
+## 本地运行
+
+Node.js 22.13+：`npm ci`、`npm run build`。本地 D1 初始化后运行 `npm start`，地址为 `http://127.0.0.1:8787`。
+
+GitHub Pages 静态客户端由 `npm run deploy:pages` 构建；后端 API 与 D1 由 Cloudflare Worker 提供。
+
+## 规格和验证
+
+- 规格：[`SPEC-V6.md`](SPEC-V6.md)
+- 验证：`npx tsc --noEmit`；`node --import tsx --test tests/v6-input.test.ts tests/core.test.ts tests/keepsake-search.test.ts`
 
 # v4 更新
 
