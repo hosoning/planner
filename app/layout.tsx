@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   other: {
     "codex-preview": "development",
   },
+  manifest: "/planner/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "塔罗旅行", statusBarStyle: "default" },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

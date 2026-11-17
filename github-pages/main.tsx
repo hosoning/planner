@@ -3,3 +3,5 @@ import Home from '../app/page';
 import '../app/globals.css';
 
 createRoot(document.getElementById('root')!).render(<Home />);
+
+if ('serviceWorker' in navigator) window.addEventListener('load', () => { void navigator.serviceWorker.register('/planner/sw.js', { scope: '/planner/' }); });
