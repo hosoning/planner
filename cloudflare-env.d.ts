@@ -1,1 +1,1 @@
-declare namespace Cloudflare {interface Env {DB?:D1Database;BUCKET?:R2Bucket;GOOGLE_MAPS_API_KEY?:string;VERIFIED_POI_CATALOG?:string;DAILY_PROVIDER_LIMIT?:string;}}
+declare namespace Cloudflare {interface Env {DB?:D1Database;BUCKET?:R2Bucket;GOOGLE_MAPS_API_KEY?:string;VERIFIED_POI_CATALOG?:string;AMAP_WEB_SERVICE_KEY?:string;AMAP_CITY_CODE?:string;DAILY_PROVIDER_LIMIT?:string;}}
