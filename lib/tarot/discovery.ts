@@ -22,7 +22,7 @@ export function searchAndConfirm(s:Snapshot,pois:POI[],options:{center?:{lat:num
   const region=selected(ds,`region${i+1}`),direction=selected(ds,`direction${i+1}`),activity=byId(ds,`activity${i+1}`),cuisine=byId(ds,i===0?'cuisine':`meal${Math.min(4,i+1)}Cuisine`);
   const key=activity.ranking[selected(ds,`confirm${i+1}`)==='yes'?0:1];const keywords=[activityKeywords[key]||key,cuisineKeywords[cuisine.selected]||'restaurant'];
   const rank=(p:typeof merged[number])=>(p.region===region?80:0)+(bearingFrom(p.lat,p.lng,origin)===direction?24:0)+tagScore(p.tags,p.meal?cuisine.card:activity.card)+(p.meal?(p.tags[cuisine.selected]||0):(p.tags[key]||0))*12;
-  const ranked=merged.filter(p=>(p.tags.food||p.tags[key]||p.tags.culture)).sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
+  const ranked=merged.filter(p=>p.tags.food||p.tags[key]||p.tags.culture||p.tags.shopping||p.tags.nature||p.tags.beach||p.tags.skyline||p.tags.fitness||p.tags.cinema).sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
   // Public search is independent of executable-data coverage. Unknown facts are never inferred from the cards.
   const primary=ranked.filter(p=>(p.region===region||options.center)&&(direction==='any'||bearingFrom(p.lat,p.lng,origin)===direction)).slice(0,5);
   const primaryKnown=primary.filter(p=>p.known);const expanded=primaryKnown.length<2;
